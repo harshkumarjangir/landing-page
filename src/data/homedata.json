@@ -866,6 +866,91 @@
     ]
   },
   "dashboardSection": {
+    "dashboardStatistics": {
+      "heading": "Dashboard With Statistics",
+      "features": [
+        "Total Orders",
+        "Overall Sales",
+        "User Statistics",
+        "Top Delivery Man",
+        "Income Stats"
+      ],
+      "summary": {
+        "title": "Orders",
+        "value": "30M+",
+        "note": "12 newly added"
+      },
+      "salesData": [
+        {
+          "name": "Jan",
+          "sales": 150
+        },
+        {
+          "name": "Feb",
+          "sales": 250
+        },
+        {
+          "name": "Mar",
+          "sales": 200
+        },
+        {
+          "name": "Apr",
+          "sales": 300
+        },
+        {
+          "name": "May",
+          "sales": 180
+        },
+        {
+          "name": "Jun",
+          "sales": 350
+        },
+        {
+          "name": "Jul",
+          "sales": 220
+        },
+        {
+          "name": "Aug",
+          "sales": 170
+        },
+        {
+          "name": "Sep",
+          "sales": 260
+        },
+        {
+          "name": "Oct",
+          "sales": 150
+        },
+        {
+          "name": "Nov",
+          "sales": 210
+        },
+        {
+          "name": "Dec",
+          "sales": 190
+        }
+      ],
+      "paymentData": [
+        {
+          "name": "Cash Payments",
+          "value": 56000000
+        },
+        {
+          "name": "Digital Payments",
+          "value": 4783
+        },
+        {
+          "name": "Wallet",
+          "value": 75439
+        }
+      ],
+      "completedPayments": "$86M+ Completed Payments",
+      "paymentBreakdown": [
+        "💵 Cash Payments ($56M)",
+        "💳 Digital Payments ($4,783)",
+        "👛 Wallet ($75,439)"
+      ]
+    },
     "dashboardFeaturesSection": {
       "title": "Powerful Dashboard Features",
       "description": "Explore our advanced dashboard tools designed to help you manage, analyze, and scale your business seamlessly.",

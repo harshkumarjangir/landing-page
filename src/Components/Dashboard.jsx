@@ -4,11 +4,11 @@ import DontSettle from "./dashboard/DontSettle"
 
 
 const Dashboard = ({ data }) => {
-    const { dashboardFeaturesSection } = data
+    const { dashboardFeaturesSection, dashboardStatistics } = data
     return (
         <div className='w-full'>
             <DontSettle />
-            <DashboardStatistics />
+            <DashboardStatistics data={dashboardStatistics} />
             <DashboardFeatures data={dashboardFeaturesSection} />
             {/* <StoreDashboardFeatures /> */}
             {/* <BusinessInterfaces /> */}
