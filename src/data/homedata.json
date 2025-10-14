@@ -3,24 +3,14 @@
     "backgroundVideo": "/assets/home/hero/herovideo.webm",
     "heading": "Engineering Global Digital Disruption with AI-Native Solutions",
     "description": "We are a Deloitte Technology Fast 50 company and a Clutch Global Award 2025 winner for unmatched customer excellence. Our mission is to leverage AI-driven automation and strategic innovation to craft digital solutions that not only meet but anticipate your business needs, ensuring sustainable market leadership your business needs, ensuring sustainable market leadership.ensuring sustainable ",
-    "buttonText": "Consult Our Experts",
-    "buttonLink": "#",
-    "heroStats": [
+    "buttons": [
       {
-        "label": "Team",
-        "value": "54+"
+        "text": "Get Started",
+        "link": "#"
       },
       {
-        "label": "Projects",
-        "value": "250+"
-      },
-      {
-        "label": "Years of Expertise",
-        "value": "4+"
-      },
-      {
-        "label": "Countries",
-        "value": "1+"
+        "text": "Request a Quote",
+        "link": "#"
       }
     ]
   },
@@ -72,27 +62,958 @@
     ]
   },
   "section3": {
-    "backgroundVideo": "/assets/home/hero/herovideo.webm",
+    "image": "/assets/home/section3/girl.webp",
     "heading": "Engineering Global Digital Disruption with AI-Native Solutions",
-    "description": "We are a Deloitte Technology Fast 50 company and a Clutch Global Award 2025 winner for unmatched customer excellence. Our mission is to leverage AI-driven automation and strategic innovation to craft digital solutions that not only meet but anticipate your business needs, ensuring sustainable market leadership your business needs, ensuring sustainable market leadership.ensuring sustainable ",
-    "buttonText": "Consult Our Experts",
-    "buttonLink": "#",
-    "heroStats": [
+    "description": "We are a Deloitte Technology Fast 50 company and a Clutch Global Award 2025 winner for unmatched customer excellence. Our mission is to leverage AI-driven automation and strategic innovation to craft digital solutions that not only meet but anticipate your business needs, ensuring sustainable market leadership your business needs, ensuring sustainable market leadership.ensuring sustainable "
+  },
+  "overviewSection": {
+    "heading": "Overview",
+    "subheading": "Why Choose",
+    "highlight": "MetaBlock Technologies",
+    "description": "6amMart comes with trendy and essential features for a greater business experience!",
+    "features": [
       {
-        "label": "Team",
-        "value": "54+"
+        "title": "Admin Dashboard",
+        "icon": "LayoutDashboard"
       },
       {
-        "label": "Projects",
-        "value": "250+"
+        "title": "Smart Features",
+        "icon": "Lightbulb"
       },
       {
-        "label": "Years of Expertise",
-        "value": "4+"
+        "title": "Multi-language",
+        "icon": "Languages"
       },
       {
-        "label": "Countries",
-        "value": "1+"
+        "title": "Product Management",
+        "icon": "PackageSearch"
+      },
+      {
+        "title": "Delivery System",
+        "icon": "Truck"
+      },
+      {
+        "title": "Multiple Location Support",
+        "icon": "MapPin"
+      }
+    ]
+  },
+  "restaurantAppFeaturesSection": {
+    "heading": "Key Features of Our",
+    "highlight": "Restaurant App Solutions",
+    "panels": [
+      {
+        "name": "User Panel",
+        "image": "/assets/ResturantFeature/restaurent-app-hire.webp",
+        "features": [
+          "Easy Sign-Up",
+          "Restaurant Search",
+          "Online Ordering",
+          "Order Tracking",
+          "Reviews & Ratings",
+          "Wishlist & Favorites",
+          "Loyalty Rewards",
+          "Social Media Login",
+          "Referral Program",
+          "Profile Management",
+          "Table Reservations",
+          "Menu Browsing",
+          "Multiple Payment Options",
+          "Push Notifications",
+          "Promo Codes",
+          "Order History",
+          "Live Chat Support",
+          "Multi-Language Support"
+        ]
+      },
+      {
+        "name": "Restaurant Panel",
+        "image": "/assets/home/appFeatures/restaurent_panel.webp",
+        "features": [
+          "Menu Browsing",
+          "Table Reservations",
+          "Order History",
+          "Promo Codes",
+          "Easy Sign-Up",
+          "Restaurant Search",
+          "Online Ordering",
+          "Order Tracking",
+          "Reviews & Ratings",
+          "Wishlist & Favorites",
+          "Loyalty Rewards",
+          "Social Media Login",
+          "Referral Program",
+          "Profile Management",
+          "Table Reservations",
+          "Multiple Payment Options",
+          "Push Notifications"
+        ]
+      },
+      {
+        "name": "Driver Panel",
+        "image": "/assets/home/appFeatures/restaurent_driver_panel.webp",
+        "features": [
+          "Order Tracking",
+          "Push Notifications",
+          "Live Chat Support",
+          "Wishlist & Favorites",
+          "Loyalty Rewards",
+          "Social Media Login",
+          "Referral Program",
+          "Profile Management",
+          "Table Reservations",
+          "Menu Browsing",
+          "Multiple Payment Options",
+          "Push Notifications",
+          "Promo Codes",
+          "Order History",
+          "Live Chat Support",
+          "Multi-Language Support"
+        ]
+      },
+      {
+        "name": "Admin Panel",
+        "image": "/assets/home/appFeatures/restaurent_admin_panel.webp",
+        "features": [
+          "Profile Management",
+          "Multi-Language Support",
+          "Referral Program",
+          "Wishlist & Favorites",
+          "Loyalty Rewards",
+          "Social Media Login",
+          "Referral Program",
+          "Profile Management",
+          "Table Reservations",
+          "Menu Browsing",
+          "Multiple Payment Options",
+          "Push Notifications",
+          "Promo Codes",
+          "Order History",
+          "Live Chat Support",
+          "Multi-Language Support"
+        ]
+      }
+    ]
+  },
+  "includedSection": {
+    "title": "What's Included With 6amMart?",
+    "subtitle": "6amMart is a complete package to kickstart your online business dream at once!",
+    "items": [
+      {
+        "icon": "Monitor",
+        "title": "Admin Panel",
+        "description": "Create, manage & control everything in one place.",
+        "bgColor": "#DBEAFE",
+        "showInUI": true
+      },
+      {
+        "icon": "Store",
+        "title": "Store Panel",
+        "description": "Individual panel for each store and its employees.",
+        "bgColor": "#DBEAFE",
+        "showInUI": true
+      },
+      {
+        "icon": "Smartphone",
+        "title": "User App",
+        "description": "Dedicated mobile app for customers with an easy interface.",
+        "bgColor": "#DBEAFE",
+        "showInUI": true
+      },
+      {
+        "icon": "Globe",
+        "title": "Flutter Website",
+        "description": "Elite website for easy purchase & better user experience.",
+        "bgColor": "#DBEAFE",
+        "showInUI": true
+      }
+    ],
+    "addonsTitle": "Premium Add-ons of 6amMart",
+    "addons": [
+      {
+        "tag": "Add On",
+        "icon": "Package",
+        "title": "Store App",
+        "price": "$39",
+        "description": "Individual mobile app for store panel users.",
+        "bgColor": "#E0F2FF",
+        "showInUI": true
+      },
+      {
+        "tag": "Add On",
+        "icon": "Truck",
+        "title": "Deliveryman App",
+        "price": "$39",
+        "description": "Exclusive delivery app for smooth deliveries.",
+        "bgColor": "#E0F2FF",
+        "showInUI": true
+      },
+      {
+        "tag": "Add On",
+        "icon": "Atom",
+        "title": "React Website",
+        "price": "$99",
+        "description": "Fully responsive React website for faster conversion.",
+        "bgColor": "#E0F2FF",
+        "showInUI": true
+      }
+    ]
+  },
+  "developmentServicesSection": {
+    "title": "Restaurant App Development Services We Offer",
+    "services": [
+      {
+        "id": 1,
+        "icon": "Utensils",
+        "title": "Custom Restaurant App Development",
+        "desc": "We build fully customized restaurant apps tailored to your unique business needs."
+      },
+      {
+        "id": 2,
+        "icon": "Headphones",
+        "title": "Restaurant App Consultation",
+        "desc": "Get expert advice and a clear roadmap to launch and scale your restaurant app."
+      },
+      {
+        "id": 3,
+        "icon": "Smartphone",
+        "title": "Android Restaurant App Development",
+        "desc": "Develop fast, scalable, and robust Android restaurant applications."
+      },
+      {
+        "id": 4,
+        "icon": "Apple",
+        "title": "iOS Restaurant App Development",
+        "desc": "Craft seamless iOS restaurant apps for an engaging user experience."
+      },
+      {
+        "id": 5,
+        "icon": "Wrench",
+        "title": "Restaurant App Maintenance",
+        "desc": "Ensure smooth performance and updates with ongoing app maintenance services."
+      },
+      {
+        "id": 6,
+        "icon": "Palette",
+        "title": "Restaurant App UI/UX",
+        "desc": "Design stunning interfaces and user-friendly experiences for your app."
+      }
+    ]
+  },
+  "callToAction": {
+    "icon": "Sparkles",
+    "title": "Want To Develop a Restaurant App?",
+    "description": "Ready to Revolutionize Your Restaurant with a Custom App? Let's Get Started!",
+    "buttonText": "Start Your Project Today",
+    "buttonUrl": "#",
+    "image": "/assets/home/callToAction/cta.webp"
+  },
+  "howItWorks": {
+    "heading": "How 6amMart Works?",
+    "description": "Partner with us for innovative software development, as we customize scalable solutions from scratch according to your needs. Through our expert team, quality work, seamless communication, and timely delivery ensure success and growth for you.",
+    "processImage": "/assets/home/howItWorks/chooseUs.png",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Purchase",
+        "description": "6amMart from CodeCanyon."
+      },
+      {
+        "number": "02",
+        "title": "Install & configure",
+        "description": "6amMart to your server."
+      },
+      {
+        "number": "03",
+        "title": "Publish",
+        "description": "Your branded app to App Store and Google Play."
+      },
+      {
+        "number": "04",
+        "title": "Invite vendors",
+        "description": "To register & enlist their products."
+      },
+      {
+        "number": "05",
+        "title": "Promote",
+        "description": "Your platform & attract customers quickly."
+      },
+      {
+        "number": "06",
+        "title": "Make a profit",
+        "description": "With multiple business channels."
+      }
+    ]
+  },
+  "mobileMockupSection": {
+    "title": "App Preview",
+    "screens": [
+      {
+        "img": "/assets/home/mobileMockup/zomato2.png",
+        "caption": "Zomato Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/ubereats2.png",
+        "caption": "UberEats Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/swiggy2.png",
+        "caption": "Swiggy Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/easy2.png",
+        "caption": "Easy Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/zomato2.png",
+        "caption": "Zomato Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/ubereats2.png",
+        "caption": "UberEats Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/swiggy2.png",
+        "caption": "Swiggy Screen"
+      },
+      {
+        "img": "/assets/home/mobileMockup/easy2.png",
+        "caption": "Easy Screen"
+      }
+    ]
+  },
+  "featureSection": {
+    "title": "Top Features",
+    "subtitle": "Our vast modules & features are designed to make your business unique from others in the market for rapid growth.",
+    "features": [
+      {
+        "icon": "LayoutDashboard",
+        "title": "Multi-Business in One Dashboard",
+        "description": "Manage different types of businesses centrally."
+      },
+      {
+        "icon": "Store",
+        "title": "Multi-Vendor Management",
+        "description": "Add unlimited vendors in each business module."
+      },
+      {
+        "icon": "MapPin",
+        "title": "Zone-Wise Business Management",
+        "description": "Manage business in a target area smoothly."
+      },
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Dedicated POS for Each Module",
+        "description": "Get a dedicated POS integrated for each business module."
+      }
+    ],
+    "images": {
+      "dashboard": "/assets/home/featureSection/dashboard.png",
+      "mobile": "/assets/home/featureSection/dashboardmobile.png"
+    },
+    "advancedFeatures": [
+      {
+        "icon": "Settings",
+        "title": "Module Management",
+        "description": "Manage, update & add new business modules anytime."
+      },
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Web & App Settings",
+        "description": "Set up your landing page, mobile apps, and APIs easily."
+      },
+      {
+        "icon": "Languages",
+        "title": "Multi-Language Setup",
+        "description": "Add unlimited languages to give a native feel to customers."
+      },
+      {
+        "icon": "Store",
+        "title": "POS Integration",
+        "description": "Integrate POS for smooth business operations."
+      }
+    ]
+  },
+  "demoSection": {
+    "leftText": "Click For Demo",
+    "rightButton": "6amMart"
+  },
+  "dontSettle": {
+    "title": "Don't Settle For Less. Experience The Best!",
+    "image": "/assets/home/dashboard/dontsettle.png"
+  },
+  "dashboardSection": {
+    "dashboardStatistics": {
+      "heading": "Dashboard With Statistics",
+      "image": "/assets/home/dashboard/dashboard.png",
+      "features": [
+        "Total Orders",
+        "Overall Sales",
+        "User Statistics",
+        "Top Delivery Man",
+        "Income Stats"
+      ],
+      "summary": {
+        "title": "Orders",
+        "value": "30M+",
+        "note": "12 newly added"
+      },
+      "salesStatistics": {
+        "salesTitle": "Sales Statistics",
+        "salesData": [
+          {
+            "name": "Jan",
+            "sales": 150
+          },
+          {
+            "name": "Feb",
+            "sales": 250
+          },
+          {
+            "name": "Mar",
+            "sales": 200
+          },
+          {
+            "name": "Apr",
+            "sales": 300
+          },
+          {
+            "name": "May",
+            "sales": 180
+          },
+          {
+            "name": "Jun",
+            "sales": 350
+          },
+          {
+            "name": "Jul",
+            "sales": 220
+          },
+          {
+            "name": "Aug",
+            "sales": 170
+          },
+          {
+            "name": "Sep",
+            "sales": 260
+          },
+          {
+            "name": "Oct",
+            "sales": 150
+          },
+          {
+            "name": "Nov",
+            "sales": 210
+          },
+          {
+            "name": "Dec",
+            "sales": 190
+          }
+        ]
+      },
+      "paymentStatistics": {
+        "paymentTitle": "Payment Statistics",
+        "paymentData": [
+          {
+            "name": "Cash Payments",
+            "value": 56000000
+          },
+          {
+            "name": "Digital Payments",
+            "value": 4783
+          },
+          {
+            "name": "Wallet",
+            "value": 75439
+          }
+        ],
+        "completedPayments": "$86M+ Completed Payments",
+        "paymentBreakdown": [
+          "💵 Cash Payments ($56M)",
+          "💳 Digital Payments ($4,783)",
+          "👛 Wallet ($75,439)"
+        ]
+      }
+    },
+    "dashboardFeaturesSection": {
+      "title": "Powerful Dashboard Features",
+      "description": "Explore our advanced dashboard tools designed to help you manage, analyze, and scale your business seamlessly.",
+      "features": [
+        {
+          "title": "Multi Business in One Dashboard",
+          "highlight": "in One Dashboard",
+          "points": [
+            "Grocery",
+            "Pharmacy",
+            "eCommerce",
+            "Food",
+            "Parcel"
+          ],
+          "img": "/assets/home/dashboard/multi-business.png",
+          "bg": "bg-white"
+        },
+        {
+          "title": "Easy to Manage Multi-Store",
+          "highlight": "Multi-Store",
+          "points": [
+            "Total Stores",
+            "Inactive Stores",
+            "New Stores",
+            "Store Requests"
+          ],
+          "img": "/assets/home/dashboard/multi-store.png",
+          "bg": "bg-green-50"
+        },
+        {
+          "title": "Smart Dispatch Management",
+          "highlight": "Dispatch Management",
+          "points": [
+            "Module-Based Overview",
+            "Map With Satellite-Based Tracking",
+            "Dispatch Overview"
+          ],
+          "img": "/assets/home/dashboard/dispatch-management.png",
+          "bg": "bg-white"
+        },
+        {
+          "title": "Store-Wise Dedicated POS",
+          "highlight": "Dedicated POS",
+          "points": [
+            "Product Section",
+            "Billing Section",
+            "Customer Selection",
+            "Delivery Information",
+            "Payment Method"
+          ],
+          "img": "/assets/home/dashboard/dedicated-pos.png",
+          "bg": "bg-green-50"
+        },
+        {
+          "title": "Manage Promotions to Boost Sales",
+          "highlight": "Promotions to Boost Sales",
+          "points": [
+            "Customized campaign",
+            "Zone-wise banners",
+            "Coupon creation",
+            "Push notifications",
+            "Customer-specific campaign"
+          ],
+          "img": "/assets/home/dashboard/promotions.png",
+          "bg": "bg-white"
+        },
+        {
+          "title": "User Overview",
+          "highlight": "Overview",
+          "points": [
+            "Customer statistics",
+            "Customer growth",
+            "Total employee",
+            "Delivery Man activity",
+            "Top delivery man"
+          ],
+          "img": "/assets/home/dashboard/user-overview.png",
+          "bg": "bg-green-50"
+        }
+      ]
+    },
+    "storeDashboardFeatures": {
+      "storeSection": {
+        "title": "All Features In One",
+        "highlight": "Store Dashboard",
+        "image": "/assets/home/dashboard/store-hero.png"
+      },
+      "liveChatSection": {
+        "title": "Well Organized Customer, Staff & Admin Live Chat",
+        "image": "/assets/home/dashboard/live-chat.png"
+      }
+    }
+  },
+  "businessInterfaces": {
+    "heading": "Different Interface for Different Business",
+    "image": "/assets/home/dashboard/different-interface.gif"
+  },
+  "appOperations": {
+    "heading": {
+      "line1": "App Operations",
+      "highlight": "JPLoft",
+      "highlightSuffix": "for",
+      "line2": "Restaurant App",
+      "line3": "Development?"
+    },
+    "description": "Manage your business operations efficiently with our comprehensive app solutions designed for seamless performance and user engagement.",
+    "image": [
+      {
+        "src": "/assets/home/appOperations/appOperations.png",
+        "alt": "App Operation 1"
+      },
+      {
+        "src": "/assets/home/appOperations/different-interface.gif",
+        "alt": "App Operation 2"
+      },
+      {
+        "src": "/assets/home/appOperations/store-hero.png",
+        "alt": "App Operation 3 - Store Dashboard"
+      },
+      {
+        "src": "/assets/home/appOperations/live-chat.png",
+        "alt": "App Operation 4 - Live Chat"
+      },
+      {
+        "src": "/assets/home/appOperations/app-features.png",
+        "alt": "App Operation 4 - App Features"
+      }
+    ]
+  },
+  "mistakesToAvoidSection": {
+    "title": "Mistakes to Avoid in Restaurant App Development",
+    "cards": [
+      {
+        "title": "Ignoring Customization Needs",
+        "description": "Failing to provide personalization options leads to poor user experience. Users expect to customize their preferences, dietary restrictions, and ordering habits.",
+        "image": "/assets/home/appMistakes/mistake1.svg"
+      },
+      {
+        "title": "Complicated Ordering Process",
+        "description": "Complex navigation and too many steps in the ordering flow frustrate customers. A streamlined, intuitive process is essential for user retention and satisfaction.",
+        "image": "/assets/home/appMistakes/mistake2.jpg"
+      },
+      {
+        "title": "Lack of App Maintenance",
+        "description": "Neglecting regular updates, bug fixes, and performance improvements results in declining app quality and user abandonment over time.",
+        "image": "/assets/home/appMistakes/mistake3.png"
+      }
+    ]
+  },
+  "restaurantAppSolutions": {
+    "title": "All-in-One Restaurant App Solutions",
+    "description": "Our restaurant app solutions help streamline your online food business with powerful panels and smart delivery features.",
+    "cards": [
+      {
+        "title": "Grow Your Restaurant Business",
+        "subtitle": "Empower your restaurant with a complete digital solution",
+        "image": "/assets/home/appSolutions/Restaurant-POS-Software.webp",
+        "icon": "TrendingUp",
+        "backTitle": "Why Choose Us?",
+        "backText": "Get everything you need to manage your restaurant, from orders to analytics, all in one place.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "User App",
+        "subtitle": "Seamless ordering for your customers",
+        "image": "/assets/home/appSolutions/Table-Reservation-Apps.webp",
+        "icon": "Smartphone",
+        "backTitle": "User App Features",
+        "backText": "Let customers browse, order, and track easily with a beautiful and intuitive app UI.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "Restaurant Panel",
+        "subtitle": "Manage orders and menus easily",
+        "image": "/assets/home/appSolutions/Restaurant-Finder-Apps.webp",
+        "icon": "Store",
+        "backTitle": "Restaurant Panel Tools",
+        "backText": "Update menus, manage orders, and track performance with our easy-to-use restaurant dashboard.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "Driver App",
+        "subtitle": "Real-time delivery tracking",
+        "image": "/assets/home/appSolutions/Restaurant-Review-Apps.webp",
+        "icon": "Truck",
+        "backTitle": "Driver App Benefits",
+        "backText": "Empower your delivery fleet with live order tracking and instant updates.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "Admin Panel",
+        "subtitle": "Control everything from one dashboard",
+        "image": "/assets/home/appSolutions/Restaurant-Finder-Apps.webp",
+        "icon": "LayoutDashboard",
+        "backTitle": "Admin Control",
+        "backText": "Manage users, restaurants, and deliveries with detailed analytics and reports.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "Analytics & Reports",
+        "subtitle": "Track growth and optimize operations",
+        "image": "/assets/home/appSolutions/Table-Reservation-Apps.webp",
+        "icon": "BarChart3",
+        "backTitle": "Data Insights",
+        "backText": "Access detailed insights to improve sales, delivery times, and customer satisfaction.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "Grow Your Restaurant Business",
+        "subtitle": "Empower your restaurant with a complete digital solution",
+        "image": "/assets/home/appSolutions/Restaurant-POS-Software.webp",
+        "icon": "Rocket",
+        "backTitle": "Why Choose Us?",
+        "backText": "Get everything you need to manage your restaurant, from orders to analytics, all in one place.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      },
+      {
+        "title": "User App",
+        "subtitle": "Seamless ordering for your customers",
+        "image": "/assets/home/appSolutions/Table-Reservation-Apps.webp",
+        "icon": "Users",
+        "backTitle": "User App Features",
+        "backText": "Let customers browse, order, and track easily with a beautiful and intuitive app UI.",
+        "cta": "Get Started",
+        "ctaLink": "#"
+      }
+    ]
+  },
+  "appDevelopmentProcessSteps": [
+    {
+      "id": 1,
+      "title": "Requirement Analysis",
+      "icon": "Brain",
+      "step": "Step 1"
+    },
+    {
+      "id": 2,
+      "title": "UI/UX Design",
+      "icon": "LayoutDashboard",
+      "step": "Step 2"
+    },
+    {
+      "id": 3,
+      "title": "App Development",
+      "icon": "Code",
+      "step": "Step 3"
+    },
+    {
+      "id": 4,
+      "title": "Testing & QA",
+      "icon": "TestTube",
+      "step": "Step 4"
+    },
+    {
+      "id": 5,
+      "title": "Deployment",
+      "icon": "Rocket",
+      "step": "Step 5"
+    },
+    {
+      "id": 6,
+      "title": "Maintenance & Support",
+      "icon": "Wrench",
+      "step": "Step 6"
+    }
+  ],
+  "companyTestimonials": {
+    "heading": "Ranked as #1 Top Web & App Development Company",
+    "description": "Empowering 1000+ clients globally with innovative Web & Mobile App Development solutions.",
+    "stats": [
+      {
+        "value": "130+",
+        "label": "Employee Strength"
+      },
+      {
+        "value": "1100+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "70+",
+        "label": "Countries Served"
+      },
+      {
+        "value": "$ 500M+",
+        "label": "Clientele Revenue"
+      }
+    ],
+    "reviewsHeader": {
+      "title": "JPLoft Solutions Pvt Ltd Reviews",
+      "rating": 5.0,
+      "reviewsCount": 81,
+      "poweredBy": "Clutch"
+    },
+    "reviews": [
+      {
+        "rating": 5.0,
+        "text": "They have delivered everything I asked of them and more.",
+        "author": "Project Manager, Apelo Panel",
+        "verified": true
+      },
+      {
+        "rating": 5.0,
+        "text": "We will surely recommend JPLoft to everyone in need of a company having full...",
+        "author": "Sole Trader, Food Company",
+        "verified": true
+      },
+      {
+        "rating": 5.0,
+        "text": "JPLoft produced good quality work, making for a successful engagement.",
+        "author": "GM, Quality Flavours Export",
+        "verified": true
+      }
+    ]
+  },
+  "appDevelopment": {
+    "heading": {
+      "line1": "Why Choose",
+      "highlight": "JPLoft",
+      "highlightSuffix": "for",
+      "line2": "Restaurant App",
+      "line3": "Development?"
+    },
+    "description": "As a leading restaurant app development company, we deliver custom, feature-rich solutions tailored to your business needs. From seamless UI to advanced integrations, our expert developers ensure high performance, scalability, and customer engagement.Partner with JPLoft, a leading restaurant app development company, to create innovative, user-friendly, and scalable mobile applications that drive customer engagement and business growth.",
+    "services": [
+      {
+        "icon": "Users",
+        "title": "Industry Expertise",
+        "description": "With years of experience in restaurant mobile app development, we build solutions that align with the latest industry trends and technologies.",
+        "isGreen": false
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Custom Solutions",
+        "description": "Our custom restaurant app development services ensure tailored features, unique branding, and seamless functionality specific to your business model.",
+        "isGreen": true
+      },
+      {
+        "icon": "Monitor",
+        "title": "Scalable Development",
+        "description": "Our apps are designed for scalability, making it easy to add features or expand as your business grows.",
+        "isGreen": false
+      },
+      {
+        "icon": "Zap",
+        "title": "Cutting-Edge Technology",
+        "description": "Our team utilizes AI, cloud computing, and secure payment gateways to enhance restaurant app solutions with next-gen capabilities.",
+        "isGreen": true
+      },
+      {
+        "icon": "Palette",
+        "title": "User-Centric Design",
+        "description": "We focus on intuitive restaurant app design, ensuring a smooth user experience that increases customer retention and satisfaction.",
+        "isGreen": false
+      },
+      {
+        "icon": "Settings",
+        "title": "End-to-End Development",
+        "description": "From consultation to deployment, we handle the complete app development services process with precision and quality.",
+        "isGreen": true
+      },
+      {
+        "icon": "Shield",
+        "title": "Secure & Reliable",
+        "description": "Our restaurant app developers implement high-security standards, ensuring data protection, smooth transactions, and app reliability.",
+        "isGreen": false
+      },
+      {
+        "icon": "Headphones",
+        "title": "24/7 Support & Maintenance",
+        "description": "We provide continuous app support and maintenance to keep your app updated, secure, and optimized.",
+        "isGreen": true
+      },
+      {
+        "icon": "UserCheck",
+        "title": "Flexible Hiring Models",
+        "description": "Hire dedicated restaurant app developers based on your project needs—full-time, part-time, or hourly engagement options available.",
+        "isGreen": false
+      }
+    ]
+  },
+  "appLandingSection": {
+    "backgroundImage": "/assets/home/appLanding/applanding.jpg",
+    "heading": "Let's Build Your Restaurant App Today!",
+    "subheading": "Get a custom, feature-rich restaurant app development solution tailored to your business needs. Start your digital transformation now!",
+    "buttonText": "Get a Free Consultation",
+    "buttonUrl": "#"
+  },
+  "faqSection": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about restaurant app development, costs, timelines, and our services.",
+    "faqs": [
+      {
+        "id": 1,
+        "question": "How much does restaurant app development cost?",
+        "answer": "The cost of restaurant app development varies based on features, complexity, and platform. Basic apps typically range from $15,000-$40,000, while advanced apps with custom features, real-time tracking, and multiple integrations can cost $50,000-$150,000+. Factors affecting cost include UI/UX design complexity, backend development, third-party integrations, and ongoing maintenance requirements."
+      },
+      {
+        "id": 2,
+        "question": "How long does it take to develop a restaurant app?",
+        "answer": "Restaurant app development typically takes 3-8 months depending on complexity. A basic app with essential features takes 3-4 months, while feature-rich apps with advanced functionality can take 6-8 months. The timeline includes planning, design, development, testing, and deployment phases. Factors like team size, feature complexity, and revision rounds can impact the overall timeline."
+      },
+      {
+        "id": 3,
+        "question": "What features should a restaurant app have?",
+        "answer": "Essential features include: menu browsing with high-quality images, online ordering and payment processing, table reservation system, user registration and profiles, order tracking, push notifications, ratings and reviews, loyalty programs, and customer support chat. Advanced features may include AR menu visualization, voice ordering, AI-powered recommendations, and integration with POS systems."
+      },
+      {
+        "id": 4,
+        "question": "Do you offer custom restaurant app development?",
+        "answer": "Yes, we provide fully customized restaurant app development tailored to your specific business needs. Our custom solutions include branded design, unique features, specialized workflows, custom integrations with your existing systems, and scalable architecture. We work closely with you to understand your requirements and create a solution that reflects your brand and serves your customers effectively."
+      },
+      {
+        "id": 5,
+        "question": "Can you develop an app for both Android and iOS?",
+        "answer": "Absolutely! We offer cross-platform development using technologies like React Native or Flutter, which allows us to create apps that work seamlessly on both Android and iOS platforms. This approach reduces development time and costs while ensuring consistent user experience across devices. We also provide native development if platform-specific features are required."
+      },
+      {
+        "id": 6,
+        "question": "Do you provide post-launch support and maintenance?",
+        "answer": "Yes, we offer comprehensive post-launch support including bug fixes, security updates, feature enhancements, performance optimization, and technical support. Our maintenance packages include regular app updates, server maintenance, analytics monitoring, and user feedback implementation. We ensure your app stays current with OS updates and industry standards."
+      },
+      {
+        "id": 7,
+        "question": "Can I integrate third-party services into my restaurant app?",
+        "answer": "Yes, we can integrate various third-party services including payment gateways (Stripe, PayPal, Square), delivery platforms (DoorDash, Uber Eats), POS systems, inventory management tools, CRM systems, social media platforms, analytics tools, and marketing automation platforms. We ensure secure and reliable integrations that enhance your app's functionality."
+      },
+      {
+        "id": 8,
+        "question": "Do you develop restaurant marketplace apps like OpenTable and Yelp?",
+        "answer": "Yes, we develop restaurant marketplace and discovery apps that connect multiple restaurants with customers. These platforms include features like restaurant listings, advanced search and filtering, reservation management, review systems, promotional tools for restaurants, commission-based models, and comprehensive admin panels for platform management."
+      },
+      {
+        "id": 9,
+        "question": "How do I hire restaurant app developers from JPLoft?",
+        "answer": "To hire our restaurant app developers, start by contacting us through our website or phone. We'll schedule a consultation to discuss your project requirements, timeline, and budget. After understanding your needs, we'll provide a detailed proposal with our recommended team structure, timeline, and pricing. Once approved, we'll assign dedicated developers and begin the project with regular updates and communication."
+      },
+      {
+        "id": 10,
+        "question": "How do I get started with my restaurant app project?",
+        "answer": "Getting started is easy! First, contact us to schedule a free consultation where we'll discuss your vision, target audience, and business goals. We'll then conduct a detailed requirement analysis, create wireframes and prototypes, and provide you with a comprehensive project roadmap and timeline. Our team will guide you through each step from concept to launch and beyond."
+      }
+    ]
+  },
+  "latestBlogs": {
+    "title": "Our Latest Tech Blogs",
+    "subtitle": "Get the latest updates on development insights, technologies and trends.",
+    "viewAllText": "View All Blogs",
+    "viewAllUrl": "#",
+    "blogs": [
+      {
+        "title": "What’s the Cost to Hire...",
+        "description": "Are you the one looking forward to hiring handyman app developers, but confused about their cost or the price? Well, it...",
+        "image": "/assets/home/latestBlogs/blog1.png",
+        "maintag": "Development",
+        "url": "#",
+        "readMoreText": "Explore More"
+      },
+      {
+        "title": "Use Cases of AI in Social...",
+        "description": "Key Takeaways AI is transforming social media by delivering personalized experiences, predictive insights, and...",
+        "image": "/assets/home/latestBlogs/blog2.png",
+        "maintag": "AI Development",
+        "url": "#",
+        "readMoreText": "Explore More"
+      },
+      {
+        "title": "How to Create a Salon...",
+        "description": "Key Takeaways The global salon service market is projected to be USD 429.8 billion by 2035, with the rise in on-demand salon...",
+        "image": "/assets/home/latestBlogs/blog3.png",
+        "maintag": "Blockchain",
+        "url": "#",
+        "readMoreText": "Explore More"
       }
     ]
   },
@@ -196,43 +1117,6 @@
         "title": "Retail",
         "description": "We develop robust healthcare solutions that improve patient care with AI Diagnostics & Imaging and Predictive Patient Analytics, enhancing the accuracy of diagnostics and streamlining operations.",
         "icon": "Store"
-      }
-    ]
-  },
-  "howItWorks": {
-    "heading": "How 6amMart Works?",
-    "description": "Partner with us for innovative software development, as we customize scalable solutions from scratch according to your needs. Through our expert team, quality work, seamless communication, and timely delivery ensure success and growth for you.",
-    "processImage": "/assets/home/howItWorks/chooseUs.png",
-    "steps": [
-      {
-        "number": "01",
-        "title": "Purchase",
-        "description": "6amMart from CodeCanyon."
-      },
-      {
-        "number": "02",
-        "title": "Install & configure",
-        "description": "6amMart to your server."
-      },
-      {
-        "number": "03",
-        "title": "Publish",
-        "description": "Your branded app to App Store and Google Play."
-      },
-      {
-        "number": "04",
-        "title": "Invite vendors",
-        "description": "To register & enlist their products."
-      },
-      {
-        "number": "05",
-        "title": "Promote",
-        "description": "Your platform & attract customers quickly."
-      },
-      {
-        "number": "06",
-        "title": "Make a profit",
-        "description": "With multiple business channels."
       }
     ]
   },
@@ -470,33 +1354,15 @@
     "buttonUrl": "#",
     "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.7378059542393!2d75.76635467442365!3d26.8800701614945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5a5fb98562f%3A0x18d64b11f30e9600!2sMetaBlock%20Technologies%20%7C%20Web%203.0%20and%20Blockchain%20Development!5e0!3m2!1sen!2sin!4v1759814684995!5m2!1sen!2sin"
   },
-  "latestBlogs": {
-    "title": "Our Latest Tech Blogs",
-    "subtitle": "Get the latest updates on development insights, technologies and trends.",
-    "viewAllText": "View All Blogs",
-    "viewAllUrl": "/blogs",
-    "blogs": [
-      {
-        "title": "What’s the Cost to Hire...",
-        "description": "Are you the one looking forward to hiring handyman app developers, but confused about their cost or the price? Well, it...",
-        "image": "/assets/home/latestBlogs/blog1.png",
-        "url": "#",
-        "readMoreText": "Explore More"
-      },
-      {
-        "title": "Use Cases of AI in Social...",
-        "description": "Key Takeaways AI is transforming social media by delivering personalized experiences, predictive insights, and...",
-        "image": "/assets/home/latestBlogs/blog2.png",
-        "url": "#",
-        "readMoreText": "Explore More"
-      },
-      {
-        "title": "How to Create a Salon...",
-        "description": "Key Takeaways The global salon service market is projected to be USD 429.8 billion by 2035, with the rise in on-demand salon...",
-        "image": "/assets/home/latestBlogs/blog3.png",
-        "url": "#",
-        "readMoreText": "Explore More"
-      }
+  "restaurantData": {
+    "title": "Our Restaurant App Development Portfolio",
+    "subtitle": "We have delivered cutting-edge restaurant app solutions for businesses of all sizes, from single-location eateries to large restaurant chains.",
+    "brandName": "Brand",
+    "appScreens": [
+      "/assets/home/mobileMockup/easy.png",
+      "/assets/home/mobileMockup/swiggy.png",
+      "/assets/home/mobileMockup/zomato.png",
+      "/assets/home/mobileMockup/ubereats.png"
     ]
   },
   "videoTestimonials": {
@@ -701,434 +1567,6 @@
         "description": "We drive collaborative initiatives that address critical challenges and deliver impactful solutions."
       }
     ]
-  },
-  "mobileMockup": [
-    {
-      "company": "Adidas",
-      "description": "Crafting innovation for the consumer markets with Adidas",
-      "result": "Result",
-      "stats": [
-        {
-          "count": "5M+",
-          "title": "App downloads"
-        },
-        {
-          "count": "5M+",
-          "title": "App downloads"
-        }
-      ],
-      "buttonText": "View case study",
-      "buttonLink": "#",
-      "image": "/assets/home/caseStudy/showcase-adidas.webp"
-    },
-    {
-      "company": "IKEA",
-      "description": "Revolutionizing home solutions for millions with IKEA",
-      "result": "Result",
-      "stats": [
-        {
-          "count": "3M+",
-          "title": "App downloads"
-        },
-        {
-          "count": "2M+",
-          "title": "Active users"
-        }
-      ],
-      "buttonText": "View case study",
-      "buttonLink": "#",
-      "image": "/assets/home/caseStudy/showcase-ikea.webp"
-    },
-    {
-      "company": "Pizza Hut",
-      "description": "Delivering seamless food ordering experience with Pizza Hut",
-      "result": "Result",
-      "stats": [
-        {
-          "count": "7M+",
-          "title": "Orders processed"
-        },
-        {
-          "count": "4M+",
-          "title": "Active users"
-        }
-      ],
-      "buttonText": "View case study",
-      "buttonLink": "#",
-      "image": "/assets/home/caseStudy/showcase-pizzahut.webp"
-    },
-    {
-      "company": "Americana",
-      "description": "Empowering next-gen tech solutions for Americana",
-      "result": "Result",
-      "stats": [
-        {
-          "count": "1M+",
-          "title": "Solutions delivered"
-        },
-        {
-          "count": "500K+",
-          "title": "Active users"
-        }
-      ],
-      "buttonText": "View case study",
-      "buttonLink": "#",
-      "image": "/assets/home/caseStudy/americana-portfolio-img.webp"
-    }
-  ],
-  "featureSection": {
-    "title": "Top Features",
-    "subtitle": "Our vast modules & features are designed to make your business unique from others in the market for rapid growth.",
-    "features": [
-      {
-        "icon": "LayoutDashboard",
-        "title": "Multi-Business in One Dashboard",
-        "description": "Manage different types of businesses centrally."
-      },
-      {
-        "icon": "Store",
-        "title": "Multi-Vendor Management",
-        "description": "Add unlimited vendors in each business module."
-      },
-      {
-        "icon": "MapPin",
-        "title": "Zone-Wise Business Management",
-        "description": "Manage business in a target area smoothly."
-      },
-      {
-        "icon": "MonitorSmartphone",
-        "title": "Dedicated POS for Each Module",
-        "description": "Get a dedicated POS integrated for each business module."
-      }
-    ],
-    "images": {
-      "dashboard": "/assets/home/featureSection/dashboard.png",
-      "mobile": "/assets/home/featureSection/dashboardmobile.png"
-    },
-    "advancedFeatures": [
-      {
-        "icon": "Settings",
-        "title": "Module Management",
-        "description": "Manage, update & add new business modules anytime."
-      },
-      {
-        "icon": "MonitorSmartphone",
-        "title": "Web & App Settings",
-        "description": "Set up your landing page, mobile apps, and APIs easily."
-      },
-      {
-        "icon": "Languages",
-        "title": "Multi-Language Setup",
-        "description": "Add unlimited languages to give a native feel to customers."
-      },
-      {
-        "icon": "Store",
-        "title": "POS Integration",
-        "description": "Integrate POS for smooth business operations."
-      }
-    ]
-  },
-  "mobileMockupSection": {
-    "title": "App Preview",
-    "screens": [
-      {
-        "img": "/assets/home/mobileMockup/zomato2.png",
-        "caption": "Zomato Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/ubereats2.png",
-        "caption": "UberEats Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/swiggy2.png",
-        "caption": "Swiggy Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/easy2.png",
-        "caption": "Easy Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/zomato2.png",
-        "caption": "Zomato Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/ubereats2.png",
-        "caption": "UberEats Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/swiggy2.png",
-        "caption": "Swiggy Screen"
-      },
-      {
-        "img": "/assets/home/mobileMockup/easy2.png",
-        "caption": "Easy Screen"
-      }
-    ]
-  },
-  "dashboardSection": {
-    "dashboardStatistics": {
-      "heading": "Dashboard With Statistics",
-      "features": [
-        "Total Orders",
-        "Overall Sales",
-        "User Statistics",
-        "Top Delivery Man",
-        "Income Stats"
-      ],
-      "summary": {
-        "title": "Orders",
-        "value": "30M+",
-        "note": "12 newly added"
-      },
-      "salesData": [
-        {
-          "name": "Jan",
-          "sales": 150
-        },
-        {
-          "name": "Feb",
-          "sales": 250
-        },
-        {
-          "name": "Mar",
-          "sales": 200
-        },
-        {
-          "name": "Apr",
-          "sales": 300
-        },
-        {
-          "name": "May",
-          "sales": 180
-        },
-        {
-          "name": "Jun",
-          "sales": 350
-        },
-        {
-          "name": "Jul",
-          "sales": 220
-        },
-        {
-          "name": "Aug",
-          "sales": 170
-        },
-        {
-          "name": "Sep",
-          "sales": 260
-        },
-        {
-          "name": "Oct",
-          "sales": 150
-        },
-        {
-          "name": "Nov",
-          "sales": 210
-        },
-        {
-          "name": "Dec",
-          "sales": 190
-        }
-      ],
-      "paymentData": [
-        {
-          "name": "Cash Payments",
-          "value": 56000000
-        },
-        {
-          "name": "Digital Payments",
-          "value": 4783
-        },
-        {
-          "name": "Wallet",
-          "value": 75439
-        }
-      ],
-      "completedPayments": "$86M+ Completed Payments",
-      "paymentBreakdown": [
-        "💵 Cash Payments ($56M)",
-        "💳 Digital Payments ($4,783)",
-        "👛 Wallet ($75,439)"
-      ]
-    },
-    "dashboardFeaturesSection": {
-      "title": "Powerful Dashboard Features",
-      "description": "Explore our advanced dashboard tools designed to help you manage, analyze, and scale your business seamlessly.",
-      "features": [
-        {
-          "title": "Multi Business in One Dashboard",
-          "highlight": "in One Dashboard",
-          "points": [
-            "Grocery",
-            "Pharmacy",
-            "eCommerce",
-            "Food",
-            "Parcel"
-          ],
-          "img": "/assets/home/dashboard/multi-business.png",
-          "bg": "bg-white"
-        },
-        {
-          "title": "Easy to Manage Multi-Store",
-          "highlight": "Multi-Store",
-          "points": [
-            "Total Stores",
-            "Inactive Stores",
-            "New Stores",
-            "Store Requests"
-          ],
-          "img": "/assets/home/dashboard/multi-store.png",
-          "bg": "bg-green-50"
-        },
-        {
-          "title": "Smart Dispatch Management",
-          "highlight": "Dispatch Management",
-          "points": [
-            "Module-Based Overview",
-            "Map With Satellite-Based Tracking",
-            "Dispatch Overview"
-          ],
-          "img": "/assets/home/dashboard/dispatch-management.png",
-          "bg": "bg-white"
-        },
-        {
-          "title": "Store-Wise Dedicated POS",
-          "highlight": "Dedicated POS",
-          "points": [
-            "Product Section",
-            "Billing Section",
-            "Customer Selection",
-            "Delivery Information",
-            "Payment Method"
-          ],
-          "img": "/assets/home/dashboard/dedicated-pos.png",
-          "bg": "bg-green-50"
-        },
-        {
-          "title": "Manage Promotions to Boost Sales",
-          "highlight": "Promotions to Boost Sales",
-          "points": [
-            "Customized campaign",
-            "Zone-wise banners",
-            "Coupon creation",
-            "Push notifications",
-            "Customer-specific campaign"
-          ],
-          "img": "/assets/home/dashboard/promotions.png",
-          "bg": "bg-white"
-        },
-        {
-          "title": "User Overview",
-          "highlight": "Overview",
-          "points": [
-            "Customer statistics",
-            "Customer growth",
-            "Total employee",
-            "Delivery Man activity",
-            "Top delivery man"
-          ],
-          "img": "/assets/home/dashboard/user-overview.png",
-          "bg": "bg-green-50"
-        }
-      ]
-    }
-  },
-  "includedSection": {
-    "title": "What's Included With 6amMart?",
-    "subtitle": "6amMart is a complete package to kickstart your online business dream at once!",
-    "items": [
-      {
-        "icon": "Monitor",
-        "title": "Admin Panel",
-        "description": "Create, manage & control everything in one place.",
-        "bgColor": "#DBEAFE"
-      },
-      {
-        "icon": "Store",
-        "title": "Store Panel",
-        "description": "Individual panel for each store and its employees.",
-        "bgColor": "#DBEAFE"
-      },
-      {
-        "icon": "Smartphone",
-        "title": "User App",
-        "description": "Dedicated mobile app for customers with an easy interface.",
-        "bgColor": "#DBEAFE"
-      },
-      {
-        "icon": "Globe",
-        "title": "Flutter Website",
-        "description": "Elite website for easy purchase & better user experience.",
-        "bgColor": "#DBEAFE"
-      }
-    ],
-    "addonsTitle": "Premium Add-ons of 6amMart",
-    "addons": [
-      {
-        "tag": "Add On",
-        "icon": "Package",
-        "title": "Store App",
-        "price": "$39",
-        "description": "Individual mobile app for store panel users.",
-        "bgColor": "#E0F2FF"
-      },
-      {
-        "tag": "Add On",
-        "icon": "Truck",
-        "title": "Deliveryman App",
-        "price": "$39",
-        "description": "Exclusive delivery app for smooth deliveries.",
-        "bgColor": "#E0F2FF"
-      },
-      {
-        "tag": "Add On",
-        "icon": "Atom",
-        "title": "React Website",
-        "price": "$99",
-        "description": "Fully responsive React website for faster conversion.",
-        "bgColor": "#E0F2FF"
-      }
-    ]
-  },
-  "overviewSection": {
-    "heading": "Overview",
-    "subheading": "Why Choose",
-    "highlight": "MetaBlock Technologies",
-    "description": "6amMart comes with trendy and essential features for a greater business experience!",
-    "features": [
-      {
-        "title": "Admin Dashboard",
-        "icon": "LayoutDashboard"
-      },
-      {
-        "title": "Smart Features",
-        "icon": "Lightbulb"
-      },
-      {
-        "title": "Multi-language",
-        "icon": "Languages"
-      },
-      {
-        "title": "Product Management",
-        "icon": "PackageSearch"
-      },
-      {
-        "title": "Delivery System",
-        "icon": "Truck"
-      },
-      {
-        "title": "Multiple Location Support",
-        "icon": "MapPin"
-      }
-    ]
-  },
-  "callToAction": {
-    "icon": "Sparkles",
-    "title": "Want To Develop a Restaurant App?",
-    "description": "Ready to Revolutionize Your Restaurant with a Custom App? Let's Get Started!",
-    "buttonText": "Start Your Project Today",
-    "buttonUrl": "#",
-    "image": "/assets/home/callToAction/noodle.png"
   },
   "partnershipSection": {
     "title": "Our Partnerships Have Transformed How You Experience These Global Leaders",

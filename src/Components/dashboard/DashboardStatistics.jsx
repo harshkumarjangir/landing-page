@@ -159,7 +159,6 @@ import {
     Pie,
     Cell,
 } from "recharts";
-// import homeData from "@/data/homeData.json";
 
 const COLORS = ["#16a34a", "#3b82f6", "#facc15"];
 
@@ -176,7 +175,7 @@ export default function DashboardStatistics({ data }) {
 
             <div className="absolute inset-0 z-0 flex justify-center items-center opacity-90 max-md:hidden">
                 <Image
-                    src="/assets/home/dashboard/dashboard.png"
+                    src={stasdata.image}
                     alt="Dashboard background"
                     fill
                     style={{ objectFit: "contain", objectPosition: "center" }}
@@ -195,9 +194,13 @@ export default function DashboardStatistics({ data }) {
                 {/* Feature List */}
                 <div className="flex flex-wrap justify-center gap-6 mb-10 text-green-600 font-medium">
                     {stasdata.features.map((feature, index) => (
-                        <span key={index}>{feature}</span>
+                        <div key={index} className="flex items-center gap-2">
+                            <span className="w-2 h-2 bg-green-600 rounded-full"></span>
+                            <span>{feature}</span>
+                        </div>
                     ))}
                 </div>
+
 
                 {/* Summary Card */}
                 <div className="grid grid-cols-1 mx-auto gap-6 w-fit">
@@ -222,10 +225,10 @@ export default function DashboardStatistics({ data }) {
                 {/* Charts */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-20">
                     {/* Sales Statistics */}
-                    <div className="max-md:p-2 p-6 bg-white rounded-2xl shadow">
-                        <h3 className="text-lg font-semibold mb-4">Sales Statistics</h3>
+                    <div className="max-md:p-2 p-6 bg-white/80 rounded-2xl shadow">
+                        <h3 className="text-lg font-semibold mb-4">{stasdata.salesStatistics.salesTitle}</h3>
                         <ResponsiveContainer width="100%" height={250}>
-                            <BarChart data={stasdata.salesData}>
+                            <BarChart data={stasdata.salesStatistics.salesData}>
                                 <XAxis dataKey="name" />
                                 <YAxis />
                                 <Tooltip />
@@ -235,12 +238,12 @@ export default function DashboardStatistics({ data }) {
                     </div>
 
                     {/* Payment Statistics */}
-                    <div className="max-md:p-2 p-6 bg-white rounded-2xl shadow">
-                        <h3 className="text-lg font-semibold mb-4">Payment Statistics</h3>
+                    <div className="max-md:p-2 p-6 bg-white/80 rounded-2xl shadow">
+                        <h3 className="text-lg font-semibold mb-4">{stasdata.paymentStatistics.paymentTitle}</h3>
                         <ResponsiveContainer width="100%" height={250}>
                             <PieChart>
                                 <Pie
-                                    data={stasdata.paymentData}
+                                    data={stasdata.paymentStatistics.paymentData}
                                     cx="50%"
                                     cy="50%"
                                     innerRadius={60}
@@ -248,7 +251,7 @@ export default function DashboardStatistics({ data }) {
                                     paddingAngle={5}
                                     dataKey="value"
                                 >
-                                    {stasdata.paymentData.map((entry, index) => (
+                                    {stasdata.paymentStatistics.paymentData.map((entry, index) => (
                                         <Cell key={index} fill={COLORS[index]} />
                                     ))}
                                 </Pie>
@@ -256,11 +259,11 @@ export default function DashboardStatistics({ data }) {
                         </ResponsiveContainer>
 
                         <div className="text-center font-bold text-green-700 text-xl">
-                            {stasdata.completedPayments}
+                            {stasdata.paymentStatistics.completedPayments}
                         </div>
 
                         <ul className="mt-4 text-sm text-gray-600 space-y-1">
-                            {stasdata.paymentBreakdown.map((item, index) => (
+                            {stasdata.paymentStatistics.paymentBreakdown.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}
                         </ul>

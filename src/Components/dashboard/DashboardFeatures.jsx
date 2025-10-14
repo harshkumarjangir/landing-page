@@ -189,7 +189,7 @@ const DashboardFeatures = ({ data }) => {
                                 </span>
                             </h3>
 
-                            <ul className="space-y-3 text-gray-700">
+                            {/* <ul className="space-y-3 text-gray-700">
                                 {feature.points.map((point, idx) => (
                                     <li
                                         key={idx}
@@ -199,7 +199,20 @@ const DashboardFeatures = ({ data }) => {
                                         {point}
                                     </li>
                                 ))}
+                            </ul> */}
+                            <ul className="space-y-3 text-gray-700">
+                                {feature.points.map((point, idx) => (
+                                    <li
+                                        key={idx}
+                                        className="flex items-start gap-3 text-lg hover:text-green-700 transition-colors"
+                                    >
+                                        {/* Green dot */}
+                                        <span className="w-2.5 h-2.5 bg-green-500 rounded-full mt-2.5 flex-shrink-0"></span>
+                                        {point}
+                                    </li>
+                                ))}
                             </ul>
+
                         </div>
                     </div>
                 </div>

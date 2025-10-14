@@ -9,7 +9,7 @@ export default function OfficialPartners({ data }) {
 
     return (
         <section className="w-full bg-black py-6 text-white">
-            <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
                 {/* Left side - Official Partners */}
                 <div className="flex flex-col gap-4">
                     <h2 className="text-xl font-bold">{title}</h2>

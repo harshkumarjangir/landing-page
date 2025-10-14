@@ -2,8 +2,8 @@
 import React from "react";
 import Link from "next/link";
 
-const DiscussProject = ({data}) => {
-    const { discussProject } = data;
+const DiscussProject = ({ data }) => {
+    const discussProject = data;
 
     return (
         <section className="w-full overflow-hidden shadow-lg">
@@ -30,7 +30,7 @@ const DiscussProject = ({data}) => {
                     </p>
                     <Link
                         href={discussProject.buttonUrl}
-                        className="inline-block bg-[#1163FB] border-2 border-[#1163FB] hover:border-black  hover:bg-transparent text-white hover:text-black font-semibold py-3 px-6 rounded-full transition duration-300"
+                        className="inline-block bg-[#00C950] border-2 border-[#00C950] hover:border-black  hover:bg-transparent text-white hover:text-black font-semibold py-3 px-6 rounded-full transition duration-300"
                     >
                         {discussProject.buttonText}
                     </Link>
@@ -47,7 +47,7 @@ const DiscussProject = ({data}) => {
                 </p>
                 <Link
                     href={discussProject.buttonUrl}
-                    className="block text-center bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300"
+                    className="block text-center bg-[#00C950] border-2 border-[#00C950] hover:border-black hover:bg-transparent text-white hover:text-black font-semibold py-3 px-6 rounded-full transition duration-300"
                 >
                     {discussProject.buttonText}
                 </Link>

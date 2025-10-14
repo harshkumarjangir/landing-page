@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 
 const GlobalOffices = ({data}) => {
-    console.log(data);
+    // console.log(data);
     const { logo, tagline, taglineLogo, locations } = data;
 
     return (

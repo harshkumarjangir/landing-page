@@ -50,7 +50,7 @@ const VideoTestimonialsSection = ({data}) => {
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     strokeWidth={2}
-                                    stroke="#1163FB"
+                                    stroke="#00C950"
                                     className="w-6 h-6 flex-shrink-0"
                                 >
                                     <path
@@ -80,7 +80,7 @@ const VideoTestimonialsSection = ({data}) => {
                                     onClick={handlePlay}
                                     className="absolute inset-0 flex items-center justify-center"
                                 >
-                                    <div className="bg-[#1163FB] w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:scale-105 transition-transform cursor-pointer">
+                                    <div className="bg-[#00C950] w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:scale-105 transition-transform cursor-pointer">
                                         <Play className="w-8 h-8 text-white" />
                                     </div>
                                 </button>
@@ -101,13 +101,13 @@ const VideoTestimonialsSection = ({data}) => {
                     <div className="flex space-x-4 mt-6">
                         <button
                             onClick={handlePrev}
-                            className="w-10 h-10 flex items-center justify-center border border-black text-black rounded-full hover:bg-[#1163FB] hover:text-white transition cursor-pointer"
+                            className="w-10 h-10 flex items-center justify-center border border-black text-black rounded-full hover:bg-[#00C950] hover:text-white transition cursor-pointer"
                         >
                             <ChevronLeft className="w-5 h-5" />
                         </button>
                         <button
                             onClick={handleNext}
-                            className="w-10 h-10 flex items-center justify-center border border-black text-black rounded-full hover:bg-[#1163FB] hover:text-white transition cursor-pointer"
+                            className="w-10 h-10 flex items-center justify-center border border-black text-black rounded-full hover:bg-[#00C950] hover:text-white transition cursor-pointer"
                         >
                             <ChevronRight className="w-5 h-5" />
                         </button>

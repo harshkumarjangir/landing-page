@@ -792,9 +792,128 @@
 
 
 
+// "use client";
+
+// import React, { useRef } from "react";
+// import Image from "next/image";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, Navigation } from "swiper/modules";
+// import { motion } from "framer-motion";
+// import { ChevronLeft, ChevronRight } from "lucide-react";
+
+// import "swiper/css";
+// import "swiper/css/navigation";
+
+// export default function MobileMockUp({ data }) {
+//     const { title, screens } = data;
+//     const swiperRef = useRef(null);
+
+//     return (
+//         <section className="py-16 bg-black text-white relative overflow-hidden">
+//             {/* Title */}
+//             <h2 className="text-3xl md:text-[40px] font-medium mb-16 text-center">
+//                 {title}
+//             </h2>
+
+//             {/* Swiper Section */}
+//             <div className="relative px-6 md:px-12">
+//                 <Swiper
+//                     modules={[Autoplay, Navigation]}
+//                     centeredSlides={true}
+//                     spaceBetween={40}
+//                     slidesPerView={3.2}
+//                     loop={true}
+//                     autoplay={{
+//                         delay: 2500,
+//                         disableOnInteraction: false,
+//                     }}
+//                     onSwiper={(swiper) => (swiperRef.current = swiper)}
+//                     className="pb-12"
+//                     breakpoints={{
+//                         0: { slidesPerView: 1.1, centeredSlides: true },
+//                         640: { slidesPerView: 1.4, centeredSlides: true },
+//                         1024: { slidesPerView: 3.5, centeredSlides: true },
+//                     }}
+//                 >
+//                     {screens.map((screen, index) => (
+//                         <SwiperSlide key={index} className="flex justify-center">
+//                             {({ isActive }) => (
+//                                 <motion.div
+//                                     transition={{ duration: 0.4 }}
+//                                     className={`relative flex flex-col items-center justify-center transition-all duration-300
+//                                         ${isActive
+//                                             ? "scale-100 opacity-100"
+//                                             : "scale-90 opacity-60"
+//                                         }`}
+//                                 >
+//                                     {/* Realistic iPhone Mockup Frame */}
+//                                     <div className="relative w-[260px] h-[520px] flex justify-center items-center">
+//                                         {/* Outer frame */}
+//                                         <div className="relative w-full h-full bg-gradient-to-b from-gray-900 to-black rounded-[3rem] p-[10px] shadow-[0_0_25px_rgba(0,0,0,0.6)] border border-gray-800 overflow-hidden">
+//                                             {/* Inner glass effect */}
+//                                             <div className="absolute inset-[4px] rounded-[2.7rem] bg-gradient-to-b from-gray-800/60 to-gray-900/80 z-0" />
+
+//                                             {/* Notch */}
+//                                             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120px] h-[26px] bg-black rounded-b-2xl z-20"></div>
+
+//                                             {/* Side buttons */}
+//                                             <div className="absolute left-0 top-[90px] w-[3px] h-[40px] bg-gray-700 rounded-r-md"></div>
+//                                             <div className="absolute left-0 top-[150px] w-[3px] h-[60px] bg-gray-700 rounded-r-md"></div>
+//                                             <div className="absolute right-0 top-[120px] w-[3px] h-[60px] bg-gray-700 rounded-l-md"></div>
+
+//                                             {/* Image (screen) */}
+//                                             <div className="relative z-10 w-full h-full overflow-hidden rounded-[2.5rem]">
+//                                                 <Image
+//                                                     src={screen.img}
+//                                                     alt={screen.caption}
+//                                                     fill
+//                                                     className="object-cover rounded-[2.5rem]"
+//                                                 />
+//                                             </div>
+//                                         </div>
+//                                     </div>
+
+//                                     {/* Caption */}
+//                                     <p className="mt-4 text-gray-400 text-sm text-center w-[260px]">
+//                                         {screen.caption}
+//                                     </p>
+//                                 </motion.div>
+//                             )}
+//                         </SwiperSlide>
+//                     ))}
+//                 </Swiper>
+
+//                 {/* Navigation Buttons */}
+//                 <div className="flex justify-center gap-4 mt-8">
+//                     <motion.button
+//                         whileHover={{ scale: 1.05 }}
+//                         whileTap={{ scale: 0.95 }}
+//                         onClick={() => swiperRef.current?.slidePrev()}
+//                         className="bg-transparent hover:bg-[#116BFB] text-white p-3 rounded-full shadow border border-[#343434] cursor-pointer"
+//                     >
+//                         <ChevronLeft className="w-5 h-5" />
+//                     </motion.button>
+//                     <motion.button
+//                         whileHover={{ scale: 1.05 }}
+//                         whileTap={{ scale: 0.95 }}
+//                         onClick={() => swiperRef.current?.slideNext()}
+//                         className="bg-transparent hover:bg-[#116BFB] text-white p-3 rounded-full shadow border border-[#343434] cursor-pointer"
+//                     >
+//                         <ChevronRight className="w-5 h-5" />
+//                     </motion.button>
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// }
+
+
+
+
+
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -807,6 +926,7 @@ import "swiper/css/navigation";
 export default function MobileMockUp({ data }) {
     const { title, screens } = data;
     const swiperRef = useRef(null);
+    const [activeIndex, setActiveIndex] = useState(0);
 
     return (
         <section className="py-16 bg-black text-white relative overflow-hidden">
@@ -820,31 +940,38 @@ export default function MobileMockUp({ data }) {
                 <Swiper
                     modules={[Autoplay, Navigation]}
                     centeredSlides={true}
-                    spaceBetween={40}
-                    slidesPerView={3.2}
+                    spaceBetween={30}
+                    slidesPerView={4.2}
                     loop={true}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
                     onSwiper={(swiper) => (swiperRef.current = swiper)}
+                    onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
                     className="pb-12"
                     breakpoints={{
                         0: { slidesPerView: 1.1, centeredSlides: true },
                         640: { slidesPerView: 1.4, centeredSlides: true },
-                        1024: { slidesPerView: 3.5, centeredSlides: true },
+                        1024: { slidesPerView: 4.5, centeredSlides: true },
                     }}
                 >
-                    {screens.map((screen, index) => (
-                        <SwiperSlide key={index} className="flex justify-center">
-                            {({ isActive }) => (
+                    {screens.map((screen, index) => {
+                        // Compute distance from active slide (accounting for loop)
+                        const total = screens.length;
+                        const leftIndex = (activeIndex - 1 + total) % total;
+                        const rightIndex = (activeIndex + 1) % total;
+
+                        let scale = "scale-75 opacity-40"; // Default (far slides)
+                        if (index === activeIndex) scale = "scale-100 opacity-100";
+                        else if (index === leftIndex || index === rightIndex)
+                            scale = "scale-85 opacity-60";
+
+                        return (
+                            <SwiperSlide key={index} className="flex justify-center">
                                 <motion.div
                                     transition={{ duration: 0.4 }}
-                                    className={`relative flex flex-col items-center justify-center transition-all duration-300
-                                        ${isActive
-                                            ? "scale-100 opacity-100"
-                                            : "scale-90 opacity-60"
-                                        }`}
+                                    className={`relative flex flex-col items-center justify-center transition-all duration-300 ${scale}`}
                                 >
                                     {/* Realistic iPhone Mockup Frame */}
                                     <div className="relative w-[260px] h-[520px] flex justify-center items-center">
@@ -878,9 +1005,9 @@ export default function MobileMockUp({ data }) {
                                         {screen.caption}
                                     </p>
                                 </motion.div>
-                            )}
-                        </SwiperSlide>
-                    ))}
+                            </SwiperSlide>
+                        );
+                    })}
                 </Swiper>
 
                 {/* Navigation Buttons */}

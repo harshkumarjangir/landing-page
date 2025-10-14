@@ -125,7 +125,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import homeData from "@/data/homedata.json";
 import {
   LayoutDashboard,
   Store,
@@ -149,13 +148,13 @@ export default function FeatureSection({ data }) {
   if (!data) return null;
 
   return (
-    <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white py-20 px-6 relative overflow-hidden">
+    <section className="bg-gradient-to-b from-green-900 to-green-700 text-white py-20 px-6 relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Heading */}
         <h2 className="text-center text-3xl md:text-4xl font-extrabold mb-4 tracking-wide">
           {title.toUpperCase()}
         </h2>
-        <p className="text-center text-sm md:text-base max-w-2xl mx-auto mb-12 text-blue-100">
+        <p className="text-center text-sm md:text-base max-w-2xl mx-auto mb-12 text-green-100">
           {subtitle}
         </p>
 
@@ -170,11 +169,11 @@ export default function FeatureSection({ data }) {
                   key={i}
                   className="flex items-start bg-white text-gray-800 p-5 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="p-3 bg-blue-100 rounded-xl mr-4">
-                    <Icon className="w-7 h-7 text-blue-700" />
+                  <div className="p-3 bg-green-100 rounded-xl mr-4">
+                    <Icon className="w-7 h-7 text-green-700" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-blue-800">
+                    <h3 className="font-semibold text-lg text-green-800">
                       {feature.title}
                     </h3>
                     <p className="text-sm text-gray-600 mt-1">
@@ -207,7 +206,7 @@ export default function FeatureSection({ data }) {
 
         {/* Advanced Features */}
         <div className="mt-24">
-          <h3 className="text-center text-2xl md:text-3xl font-bold mb-12 text-blue-50">
+          <h3 className="text-center text-2xl md:text-3xl font-bold mb-12 text-green-50">
             Advanced Features
           </h3>
 
@@ -219,7 +218,7 @@ export default function FeatureSection({ data }) {
                   key={i}
                   className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition-all duration-300 text-center text-gray-800"
                 >
-                  <Icon className="w-10 h-10 mx-auto text-blue-700 mb-3" />
+                  <Icon className="w-10 h-10 mx-auto text-green-700 mb-3" />
                   <h4 className="font-semibold text-lg">{feature.title}</h4>
                   <p className="text-sm text-gray-600 mt-2">
                     {feature.description}
@@ -232,7 +231,127 @@ export default function FeatureSection({ data }) {
       </div>
 
       {/* Decorative gradient overlay */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent blur-3xl"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-green-500/20 via-transparent to-transparent blur-3xl"></div>
     </section>
   );
 }
+
+
+
+
+
+
+
+// "use client";
+// import React from "react";
+// import Image from "next/image";
+// import {
+//   LayoutDashboard,
+//   Store,
+//   MapPin,
+//   MonitorSmartphone,
+//   Settings,
+//   Languages,
+// } from "lucide-react";
+
+// const ICONS = {
+//   LayoutDashboard,
+//   Store,
+//   MapPin,
+//   MonitorSmartphone,
+//   Settings,
+//   Languages,
+// };
+
+// export default function FeatureSection({ data }) {
+//   const { title, subtitle, features, images, advancedFeatures } = data;
+//   if (!data) return null;
+
+//   return (
+//     <section className="bg-gradient-to-b from-blue-900 to-blue-700 text-white py-20 px-6 relative overflow-hidden">
+//       <div className="max-w-7xl mx-auto relative z-10">
+//         {/* Heading */}
+//         <h2 className="text-center text-3xl md:text-4xl font-extrabold mb-4 tracking-wide">
+//           {title.toUpperCase()}
+//         </h2>
+//         <p className="text-center text-sm md:text-base max-w-2xl mx-auto mb-12 text-blue-100">
+//           {subtitle}
+//         </p>
+
+//         {/* Top Features */}
+//         <div className="grid md:grid-cols-2 gap-8 items-center">
+//           {/* Feature List */}
+//           <div className="space-y-6">
+//             {features.map((feature, i) => {
+//               const Icon = ICONS[feature.icon];
+//               return (
+//                 <div
+//                   key={i}
+//                   className="flex items-start bg-white text-gray-800 p-5 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
+//                 >
+//                   <div className="p-3 bg-blue-100 rounded-xl mr-4">
+//                     <Icon className="w-7 h-7 text-blue-700" />
+//                   </div>
+//                   <div>
+//                     <h3 className="font-semibold text-lg text-blue-800">
+//                       {feature.title}
+//                     </h3>
+//                     <p className="text-sm text-gray-600 mt-1">
+//                       {feature.description}
+//                     </p>
+//                   </div>
+//                 </div>
+//               );
+//             })}
+//           </div>
+
+//           {/* Feature Images */}
+//           <div className="flex flex-col md:flex-row justify-center items-center gap-6 relative">
+//             <Image
+//               src={images.dashboard}
+//               alt="Dashboard Preview"
+//               width={400}
+//               height={400}
+//               className="rounded-2xl shadow-lg md:rotate-[-8deg] hover:rotate-0 transition-transform duration-500"
+//             />
+//             <Image
+//               src={images.mobile}
+//               alt="Mobile App Preview"
+//               width={180}
+//               height={320}
+//               className="rounded-2xl shadow-lg md:rotate-[10deg] hover:rotate-0 transition-transform duration-500"
+//             />
+//           </div>
+//         </div>
+
+//         {/* Advanced Features */}
+//         <div className="mt-24">
+//           <h3 className="text-center text-2xl md:text-3xl font-bold mb-12 text-blue-50">
+//             Advanced Features
+//           </h3>
+
+//           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
+//             {advancedFeatures.map((feature, i) => {
+//               const Icon = ICONS[feature.icon];
+//               return (
+//                 <div
+//                   key={i}
+//                   className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition-all duration-300 text-center text-gray-800"
+//                 >
+//                   <Icon className="w-10 h-10 mx-auto text-blue-700 mb-3" />
+//                   <h4 className="font-semibold text-lg">{feature.title}</h4>
+//                   <p className="text-sm text-gray-600 mt-2">
+//                     {feature.description}
+//                   </p>
+//                 </div>
+//               );
+//             })}
+//           </div>
+//         </div>
+//       </div>
+
+//       {/* Decorative gradient overlay */}
+//       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent blur-3xl"></div>
+//     </section>
+//   );
+// }

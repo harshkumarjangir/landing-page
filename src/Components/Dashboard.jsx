@@ -1,17 +1,19 @@
+// import BusinessInterfaces from "./dashboard/BusinessInterfaces"
 import DashboardFeatures from "./dashboard/DashboardFeatures"
 import DashboardStatistics from "./dashboard/DashboardStatistics"
-import DontSettle from "./dashboard/DontSettle"
+import StoreDashboardFeatures from "./dashboard/StoreDashboardFeatures"
+// import DontSettle from "./dashboard/DontSettle"
 
 
 const Dashboard = ({ data }) => {
-    const { dashboardFeaturesSection, dashboardStatistics } = data
+    const { dashboardFeaturesSection, dashboardStatistics, storeDashboardFeatures, businessInterfaces } = data
     return (
         <div className='w-full'>
-            <DontSettle />
+            {/* <DontSettle /> */}
             <DashboardStatistics data={dashboardStatistics} />
             <DashboardFeatures data={dashboardFeaturesSection} />
-            {/* <StoreDashboardFeatures /> */}
-            {/* <BusinessInterfaces /> */}
+            {/* <StoreDashboardFeatures data={storeDashboardFeatures} /> */}
+            {/* <BusinessInterfaces data={businessInterfaces} /> */}
             {/* <EcommerceFlow /> */}
             {/* <AppFeatures /> */}
         </div>
