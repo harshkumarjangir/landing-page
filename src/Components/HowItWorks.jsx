@@ -126,7 +126,7 @@ const HowItWorks = ({ data }) => {
             <div className="scrlImg text-center sticky top-[10%] left-0 right-0 z-10">
                 <Image
                     src={processImage}
-                    className="object-cover aspect-square rounded-full border-4 border-green-300"
+                    className="object-cover aspect-square rounded-full"
                     alt={heading}
                     title={heading}
                     width={80}

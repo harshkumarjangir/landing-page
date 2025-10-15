@@ -49,7 +49,7 @@ const Section3 = ({ data }) => {
   const { heading, description, image } = data;
 
   return (
-    <div className="relative md:h-[90vh] w-full px-4 max-md:pb-5 flex max-md:flex-col flex-row items-center max-md:justify-center justify-between text-white bg-gradient-to-r from-[#064e3b] via-[#065f46] to-[#047857]">
+    <div className="relative md:h-[90vh] w-full px-4 max-md:pb-5 flex max-md:flex-col flex-row items-center max-md:justify-center justify-between text-white bg-gradient-to-r from-[#064e3b] via-[#216d58] to-[#144235]">
 
       {/* LEFT SIDE - TEXT */}
       <div className="lg:w-1/2 px-4 max-md:py-12 md:px-8 relative z-10 max-md:text-center">
@@ -65,8 +65,6 @@ const Section3 = ({ data }) => {
       {/* RIGHT SIDE - IMAGE */}
       <div className="flex-1 flex justify-center items-center mt-8 w-full max-w-lg">
         <div className="relative w-full h-[300px] sm:h-[400px] md:h-[600px] lg:h-[800px]">
-          <div className="absolute -top-10 -left-10 w-64 h-64 bg-green-400/30 blur-3xl rounded-full -z-10" />
-          <div className="absolute bottom-0 right-0 w-48 h-48 bg-lime-300/20 blur-2xl rounded-full -z-10" />
           <Image
             src={image}
             alt="Section Visual"

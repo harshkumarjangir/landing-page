@@ -29,6 +29,10 @@ import CompanyTestimonials from "@/Components/CompanyTestimonials";
 import AppPortfolio from "@/Components/AppPortfolio";
 import RestaurantAppSolutions from "@/Components/RestaurantAppSolutions";
 import AppDevelopmentProcess from "@/Components/AppDevelopmentProcess";
+import LatestTechnologies from "@/Components/LatestTechnologies";
+import VideoInsights from "@/Components/VideoInsights";
+import HireDevelopers from "@/Components/HireDevelopers";
+import CustomVsReadymadeApp from "@/Components/CustomVsReadymadeApp";
 
 
 export default function Home() {
@@ -52,7 +56,18 @@ export default function Home() {
       {/* <BusinessInterfaces data={homedata.businessInterfaces} /> */}
       <AppOperations data={homedata.appOperations} />
       <MistakesToAvoid data={homedata.mistakesToAvoidSection} />
-      <AppDevelopmentProcess data={homedata.appDevelopmentProcessSteps} />
+
+      {/* <AppDevelopmentProcess data={homedata.appDevelopmentProcessStepsOld} /> */}
+      <HowItWorks data={homedata.appDevelopmentProcessSteps} />
+      {/* <ReusableTimeline data={homedata.appDevelopmentProcessSteps} /> */}
+
+
+
+
+      <LatestTechnologies data={homedata.latestTechnologies} />
+      <VideoInsights data={homedata.videoInsights} />
+      <HireDevelopers data={homedata.hireDevelopers} />
+      <CustomVsReadymadeApp data={homedata.customVsReadymadeApp} />
       <RestaurantAppSolutions data={homedata.restaurantAppSolutions} />
       <AppDevelopment data={homedata.appDevelopment} />
       <AppLanding data={homedata.appLandingSection} />
@@ -60,7 +75,9 @@ export default function Home() {
       <VideoTestimonialsSection data={homedata.videoTestimonials} />
       <CompanyTestimonials data={homedata.companyTestimonials} />
       <DiscussProject data={homedata.discussProject} />
+
       <AppPortfolio data={homedata.restaurantData} />
+      
       <LatestBlogs data={homedata.latestBlogs} />
       <GlobalOffices data={homedata.offices} />
       <Footer />

@@ -770,44 +770,349 @@
       }
     ]
   },
-  "appDevelopmentProcessSteps": [
-    {
-      "id": 1,
-      "title": "Requirement Analysis",
-      "icon": "Brain",
-      "step": "Step 1"
+  "appDevelopmentProcessSteps": {
+    "heading": "App Development Process",
+    "description": "Our systematic development process ensures seamless execution from concept to completion.",
+    "processImage": "/assets/home/howItWorks/chooseUs.png",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Requirement Analysis",
+        "description": "6amMart from CodeCanyon."
+      },
+      {
+        "number": "02",
+        "title": "UI/UX Design",
+        "description": "6amMart to your server."
+      },
+      {
+        "number": "03",
+        "title": "App Development",
+        "description": "Your branded app to App Store and Google Play."
+      },
+      {
+        "number": "04",
+        "title": "Testing & QA",
+        "description": "To register & enlist their products."
+      },
+      {
+        "number": "05",
+        "title": "Deployment",
+        "description": "Your platform & attract customers quickly."
+      },
+      {
+        "number": "06",
+        "title": "Maintenance & Support",
+        "description": "With multiple business channels."
+      }
+    ]
+  },
+  "appDevelopmentProcessStepsOld": {
+    "title": "App Development Process",
+    "description": "Our systematic development process ensures seamless execution from concept to completion.",
+    "processImage": "/assets/home/howItWorks/chooseUs.png",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Requirement Analysis",
+        "icon": "Brain",
+        "step": "Step 1"
+      },
+      {
+        "id": 2,
+        "title": "UI/UX Design",
+        "icon": "LayoutDashboard",
+        "step": "Step 2"
+      },
+      {
+        "id": 3,
+        "title": "App Development",
+        "icon": "Code",
+        "step": "Step 3"
+      },
+      {
+        "id": 4,
+        "title": "Testing & QA",
+        "icon": "TestTube",
+        "step": "Step 4"
+      },
+      {
+        "id": 5,
+        "title": "Deployment",
+        "icon": "Rocket",
+        "step": "Step 5"
+      },
+      {
+        "id": 6,
+        "title": "Maintenance & Support",
+        "icon": "Wrench",
+        "step": "Step 6"
+      }
+    ]
+  },
+  "latestTechnologies": {
+    "heading": "Get Solutions Built with the Latest Robust Technologies",
+    "description": "JPloft combines AI, machine learning, and other emerging technologies to craft scalable solutions, giving your business a competitive edge. Our teams' expertise covers a vast range of technologies, setting us apart from other companies.",
+    "categories": [
+      {
+        "name": "Mobile App",
+        "key": "mobile",
+        "technologies": [
+          {
+            "name": "iOS",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic14.svg"
+          },
+          {
+            "name": "Android",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic15.svg"
+          },
+          {
+            "name": "Ionic",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic16.svg"
+          },
+          {
+            "name": "Flutter",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic17.svg"
+          },
+          {
+            "name": "PWA",
+            "icon": "/assets/home/latestTechnologies/mobileApp/pwa-icon.svg"
+          },
+          {
+            "name": "React Native",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic4.svg"
+          },
+          {
+            "name": "Cordova",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic19.svg"
+          },
+          {
+            "name": "Swift",
+            "icon": "/assets/home/latestTechnologies/mobileApp/technologies-ic-swift.svg"
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "key": "ai",
+        "technologies": [
+          {
+            "name": "OpenAI",
+            "icon": "/assets/home/latestTechnologies/ai/openai-logo.svg"
+          },
+          {
+            "name": "Meta AI",
+            "icon": "/assets/home/latestTechnologies/ai/meta.svg"
+          },
+          {
+            "name": "Google AI",
+            "icon": "/assets/home/latestTechnologies/ai/google-ai.svg"
+          },
+          {
+            "name": "Grok",
+            "icon": "/assets/home/latestTechnologies/ai/grok.svg"
+          },
+          {
+            "name": "Scikit-learn",
+            "icon": "/icons/scikit.svg"
+          }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "key": "frontend",
+        "technologies": [
+          {
+            "name": "React",
+            "icon": "/assets/home/latestTechnologies/frontend/technologies-ic4.svg"
+          },
+          {
+            "name": "Next.js",
+            "icon": "/assets/home/latestTechnologies/frontend/nextjs-icon.svg"
+          },
+          {
+            "name": "Vue.js",
+            "icon": "/assets/home/latestTechnologies/frontend/Vue.js_Logo_2.svg"
+          },
+          {
+            "name": "Angular",
+            "icon": "/assets/home/latestTechnologies/frontend/technologies-ic3.svg"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "/assets/home/latestTechnologies/frontend/tailwindcss-mark.d52e9897.svg"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "/assets/home/latestTechnologies/frontend/javascript-logo.svg"
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "key": "backend",
+        "technologies": [
+          {
+            "name": "Node.js",
+            "icon": "/assets/home/latestTechnologies/backend/technologies-ic13.svg"
+          },
+          {
+            "name": "Express",
+            "icon": "/assets/home/latestTechnologies/backend/expressjs-icon.svg"
+          },
+          {
+            "name": "Laravel",
+            "icon": "/assets/home/latestTechnologies/backend/technologies-ic12.svg"
+          },
+          {
+            "name": "Django",
+            "icon": "/assets/home/latestTechnologies/backend/technologies-ic11.svg"
+          },
+          {
+            "name": "Spring Boot",
+            "icon": "/assets/home/latestTechnologies/backend/technologies-ic-java.svg"
+          }
+        ]
+      },
+      {
+        "name": "DevOps",
+        "key": "devops",
+        "technologies": [
+          {
+            "name": "Docker",
+            "icon": "/assets/home/latestTechnologies/devops/technologies-ic20.svg"
+          },
+          {
+            "name": "Kubernetes",
+            "icon": "/assets/home/latestTechnologies/devops/technologies-ic21.svg"
+          },
+          {
+            "name": "Jenkins",
+            "icon": "/assets/home/latestTechnologies/devops/jenkins-svgrepo-com.svg"
+          },
+          {
+            "name": "GitHub Actions",
+            "icon": "/assets/home/latestTechnologies/devops/GitHub Actions.svg"
+          },
+          {
+            "name": "AWS",
+            "icon": "/assets/home/latestTechnologies/devops/technologies-ic33.svg"
+          },
+          {
+            "name": "Azure",
+            "icon": "/assets/home/latestTechnologies/devops/technologies-ic34.svg"
+          },
+          {
+            "name": "DigitalOcean",
+            "icon": "/assets/home/latestTechnologies/devops/technologies-ic35.svg"
+          }
+        ]
+      },
+      {
+        "name": "Android",
+        "key": "android",
+        "technologies": [
+          {
+            "name": "Java",
+            "icon": "/assets/home/latestTechnologies/android/technologies-ic-java.svg"
+          },
+          {
+            "name": "Kotlin",
+            "icon": "/assets/home/latestTechnologies/android/Kotlin_icon.svg"
+          },
+          {
+            "name": "Android Studio",
+            "icon": "/assets/home/latestTechnologies/android/Android_Studio.svg"
+          },
+          {
+            "name": "Firebase",
+            "icon": "/assets/home/latestTechnologies/android/icons8-firebase.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "videoInsights": {
+    "heading": "Watch: AI Business Growth & Investment Guidance",
+    "description": "Get expert insights on implementing AI technology to transform your business processes and securing funding to scale effectively. Discover actionable strategies from JPLoft's specialists who turn innovative ideas into profitable businesses.",
+    "videos": [
+      {
+        "thumbnail": "/assets/home/videoInsights/images/daniel-brook.webp",
+        "videoSrc": "/assets/home/videoInsights/videos/daniel-brook.mp4",
+        "name": "DREW BENNETT",
+        "designation": "Strategic Technology Solutions Manager",
+        "title": "How to Use AI for Business?",
+        "buttonText": "Watch Video"
+      },
+      {
+        "thumbnail": "/assets/home/videoInsights/images/drew-insight.webp",
+        "videoSrc": "/assets/home/videoInsights/videos/drew-insight.mp4",
+        "name": "DANIEL BROOKS",
+        "designation": "Financial Growth Specialist",
+        "title": "How to Get Funding for Your Business?",
+        "buttonText": "Watch Video"
+      }
+    ]
+  },
+  "hireDevelopers": {
+    "title": "Hire Restaurant App Developers to Build Your Custom Solution",
+    "paragraphs": [
+      "Looking for expert restaurant app developers to create a feature-rich and scalable app? Our team at JPLoft specializes in crafting seamless app solutions tailored to your business needs. From online ordering to POS integration, we ensure high performance and an engaging user experience.",
+      "When you hire restaurant app developers from us, you get professionals skilled in the latest technologies, delivering apps that enhance customer engagement and streamline restaurant operations. Whether you need a restaurant management app or a restaurant marketplace app, we provide solutions that drive growth and efficiency.",
+      "Partner with a trusted restaurant app development firm that prioritizes quality, innovation, and seamless functionality. We offer flexible hiring models to suit your project requirements, whether it’s a full-scale app or a custom module. Let’s build a solution that takes your restaurant business to the next level!"
+    ],
+    "buttonText": "Hire Restaurant App Developers",
+    "buttonUrl": "#",
+    "image": "/assets/home/hireDevelopers/hire-dedicated-developers.webp"
+  },
+  "hireDevelopersSection": {
+    "title": "Hire Restaurant App Developers to Build Your Custom Solution",
+    "paragraphs": [
+      "Looking for expert restaurant app developers to create a feature-rich and scalable app? Our team at JPLoft specializes in crafting seamless app solutions tailored to your business needs. From online ordering to POS integration, we ensure high performance and an engaging user experience.",
+      "When you hire restaurant app developers from us, you get professionals skilled in the latest technologies, delivering apps that enhance customer engagement and streamline restaurant operations. Whether you need a restaurant management app or a restaurant marketplace app, we provide solutions that drive growth and efficiency.",
+      "Partner with a trusted restaurant app development firm that prioritizes quality, innovation, and seamless functionality. We offer flexible hiring models to suit your project requirements, whether it’s a full-scale app or a custom module. Let’s build a solution that takes your restaurant business to the next level!"
+    ],
+    "buttonText": "Hire Restaurant App Developers",
+    "images": [
+      "/assets/home/hireDevelopers/hire-dedicated-developers.webp",
+      "/assets/home/hire/hire2.webp",
+      "/assets/home/hire/hire3.webp"
+    ]
+  },
+  "customVsReadymadeApp": {
+    "title": "Custom vs Readymade Restaurant Apps",
+    "headers": {
+      "customApp": "Custom Apps",
+      "readymadeApp": "Readymade Apps"
     },
-    {
-      "id": 2,
-      "title": "UI/UX Design",
-      "icon": "LayoutDashboard",
-      "step": "Step 2"
-    },
-    {
-      "id": 3,
-      "title": "App Development",
-      "icon": "Code",
-      "step": "Step 3"
-    },
-    {
-      "id": 4,
-      "title": "Testing & QA",
-      "icon": "TestTube",
-      "step": "Step 4"
-    },
-    {
-      "id": 5,
-      "title": "Deployment",
-      "icon": "Rocket",
-      "step": "Step 5"
-    },
-    {
-      "id": 6,
-      "title": "Maintenance & Support",
-      "icon": "Wrench",
-      "step": "Step 6"
-    }
-  ],
+    "comparison": [
+      {
+        "icon": "/assets/home/customVsReadymadeApp/custom_app_ic14.svg",
+        "title": "Cost",
+        "description": "Readymade apps usually come with a lower initial investment, while custom solutions tend to have higher upfront costs."
+      },
+      {
+        "icon": "/assets/home/customVsReadymadeApp/custom_app_ic11.svg",
+        "title": "Customization",
+        "description": "Custom restaurant apps are built to fit your specific business needs, unlike the limited flexibility of readymade options."
+      },
+      {
+        "icon": "/assets/home/customVsReadymadeApp/custom_app_ic5.svg",
+        "title": "Time to Market",
+        "description": "Readymade solutions allow for a quicker launch, whereas custom development requires more time for design and testing."
+      },
+      {
+        "icon": "/assets/home/customVsReadymadeApp/custom_app_ic2.svg",
+        "title": "Scalability",
+        "description": "Custom apps are designed to scale alongside your business growth, while readymade apps may struggle to adapt to expanding needs."
+      },
+      {
+        "icon": "/assets/home/customVsReadymadeApp/custom_app_ic7.svg",
+        "title": "Maintenance",
+        "description": "With readymade apps, you often benefit from vendor support, but custom apps require a dedicated maintenance plan."
+      }
+    ]
+  },
   "companyTestimonials": {
     "heading": "Ranked as #1 Top Web & App Development Company",
     "description": "Empowering 1000+ clients globally with innovative Web & Mobile App Development solutions.",
@@ -1354,7 +1659,7 @@
     "buttonUrl": "#",
     "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.7378059542393!2d75.76635467442365!3d26.8800701614945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5a5fb98562f%3A0x18d64b11f30e9600!2sMetaBlock%20Technologies%20%7C%20Web%203.0%20and%20Blockchain%20Development!5e0!3m2!1sen!2sin!4v1759814684995!5m2!1sen!2sin"
   },
-  "restaurantData": {
+  "restaurantData2": {
     "title": "Our Restaurant App Development Portfolio",
     "subtitle": "We have delivered cutting-edge restaurant app solutions for businesses of all sizes, from single-location eateries to large restaurant chains.",
     "brandName": "Brand",
@@ -1363,6 +1668,72 @@
       "/assets/home/mobileMockup/swiggy.png",
       "/assets/home/mobileMockup/zomato.png",
       "/assets/home/mobileMockup/ubereats.png"
+    ]
+  },
+  "restaurantData": {
+    "title": "Our Restaurant App Development Portfolio",
+    "subtitle": "We have delivered cutting-edge restaurant app solutions for businesses of all sizes.",
+    "tabs": [
+      {
+        "brandName": "Swiggy",
+        "brandImage": "/assets/home/appPortfolio/swiggy.png",
+        "appScreens": [
+          "/assets/home/mobileMockup/swiggy.png",
+          "/assets/home/mobileMockup/easy.png",
+          "/assets/home/mobileMockup/zomato.png",
+          "/assets/home/mobileMockup/ubereats.png"
+        ]
+      },
+      {
+        "brandName": "Uber Eats",
+        "brandImage": "/assets/home/appPortfolio/uber-eats.png",
+        "appScreens": [
+          "/assets/home/mobileMockup/ubereats.png",
+          "/assets/home/mobileMockup/zomato.png",
+          "/assets/home/mobileMockup/easy.png",
+          "/assets/home/mobileMockup/swiggy.png"
+        ]
+      },
+      {
+        "brandName": "Zomato",
+        "brandImage": "/assets/home/appPortfolio/zomato.png",
+        "appScreens": [
+          "/assets/home/mobileMockup/easy.png",
+          "/assets/home/mobileMockup/swiggy.png",
+          "/assets/home/mobileMockup/zomato.png",
+          "/assets/home/mobileMockup/ubereats.png"
+        ]
+      },
+      {
+        "brandName": "Swiggy 2",
+        "brandImage": "/assets/home/appPortfolio/swiggy.png",
+        "appScreens": [
+          "/assets/home/mobileMockup/swiggy.png",
+          "/assets/home/mobileMockup/easy.png",
+          "/assets/home/mobileMockup/zomato.png",
+          "/assets/home/mobileMockup/ubereats.png"
+        ]
+      },
+      {
+        "brandName": "Uber Eats 2",
+        "brandImage": "/assets/home/appPortfolio/uber-eats.png",
+        "appScreens": [
+          "/assets/home/mobileMockup/ubereats.png",
+          "/assets/home/mobileMockup/zomato.png",
+          "/assets/home/mobileMockup/easy.png",
+          "/assets/home/mobileMockup/swiggy.png"
+        ]
+      },
+      {
+        "brandName": "Zomato 2",
+        "brandImage": "/assets/home/appPortfolio/zomato.png",
+        "appScreens": [
+          "/assets/home/mobileMockup/easy.png",
+          "/assets/home/mobileMockup/swiggy.png",
+          "/assets/home/mobileMockup/zomato.png",
+          "/assets/home/mobileMockup/ubereats.png"
+        ]
+      }
     ]
   },
   "videoTestimonials": {

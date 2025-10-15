@@ -159,7 +159,7 @@ export default function FeatureSection({ data }) {
         </p>
 
         {/* Top Features */}
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Feature List */}
           <div className="space-y-6">
             {features.map((feature, i) => {
@@ -186,19 +186,19 @@ export default function FeatureSection({ data }) {
           </div>
 
           {/* Feature Images */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-6 relative">
+          <div className="flex flex-col md:flex-col justify-center items-center gap-6 relative">
             <Image
               src={images.dashboard}
               alt="Dashboard Preview"
-              width={400}
-              height={400}
+              width={550}
+              height={450}
               className="rounded-2xl shadow-lg md:rotate-[-8deg] hover:rotate-0 transition-transform duration-500"
             />
             <Image
               src={images.mobile}
               alt="Mobile App Preview"
-              width={180}
-              height={320}
+              width={150}
+              height={280}
               className="rounded-2xl shadow-lg md:rotate-[10deg] hover:rotate-0 transition-transform duration-500"
             />
           </div>
