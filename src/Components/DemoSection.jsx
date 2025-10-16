@@ -4,40 +4,50 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function DemoSection({ data, colorTheme }) {
-    const { leftText, rightButton, rightButtonUrl } = data;
+    const { leftText, rightButton, rightButtonUrl, colorGreen, colorWhite } = data;
+
+    // detect if theme is white or green
+    const isWhiteTheme = colorTheme === colorWhite;
+    const bgColor = colorTheme;
+    const textColor = isWhiteTheme ? colorGreen : colorWhite;
+    const arrowBg = isWhiteTheme ? colorGreen : colorWhite;
+    const arrowColor = isWhiteTheme ? colorWhite : colorGreen;
 
     return (
         <section
-            style={{ backgroundColor: colorTheme }}
+            style={{ backgroundColor: bgColor }}
             className="relative mt-0 py-12 px-6 flex flex-col md:flex-row items-center justify-between gap-6"
         >
             {/* Left Section */}
-            <div className="flex flex-row items-center gap-3 text-white text-2xl font-semibold">
+            <div
+                className="flex flex-row items-center gap-3 text-2xl font-semibold transition-all"
+                style={{ color: textColor }}
+            >
                 <span>{leftText}</span>
                 <ArrowRight
-                    className="rounded-full p-1 w-8 h-8"
-                    style={{ backgroundColor: "white", color: colorTheme }}
+                    className="rounded-full p-1 w-8 h-8 transition-all"
+                    style={{ backgroundColor: arrowBg, color: arrowColor }}
                 />
             </div>
 
             {/* Right Section - Button */}
             <Link
                 href={rightButtonUrl}
-                className="rounded-lg px-6 py-3 font-bold text-xl border transition-colors duration-300"
+                className="rounded-lg px-6 py-3 font-bold text-xl border transition-all duration-300"
                 style={{
-                    backgroundColor: "white",
-                    color: colorTheme,
-                    borderColor: "white",
+                    backgroundColor: arrowBg,
+                    color: arrowColor,
+                    borderColor: arrowBg,
                 }}
                 onMouseEnter={(e) => {
                     e.currentTarget.style.backgroundColor = "transparent";
-                    e.currentTarget.style.color = "white";
-                    e.currentTarget.style.borderColor = "white";
+                    e.currentTarget.style.color = textColor;
+                    e.currentTarget.style.borderColor = textColor;
                 }}
                 onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = "white";
-                    e.currentTarget.style.color = colorTheme;
-                    e.currentTarget.style.borderColor = "white";
+                    e.currentTarget.style.backgroundColor = arrowBg;
+                    e.currentTarget.style.color = arrowColor;
+                    e.currentTarget.style.borderColor = arrowBg;
                 }}
             >
                 {rightButton}
@@ -45,6 +55,7 @@ export default function DemoSection({ data, colorTheme }) {
         </section>
     );
 }
+
 
 
 

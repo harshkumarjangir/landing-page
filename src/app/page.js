@@ -50,7 +50,7 @@ const { colorGreen, colorBlue } = homedata.demoSection;
       <HowItWorks data={homedata.howItWorks} />
       <MobileMockUp data={homedata.mobileMockupSection} />
       <FeatureSection data={homedata.featureSection} />
-      <DemoSection data={homedata.demoSection} colorTheme={homedata.demoSection.colorBlue} />
+      <DemoSection data={homedata.demoSection} colorTheme={homedata.demoSection.colorWhite} />
       <DontSettle data={homedata.dontSettle} />
       <Dashboard data={homedata.dashboardSection} />
       <DemoSection data={homedata.demoSection} colorTheme={homedata.demoSection.colorGreen} />

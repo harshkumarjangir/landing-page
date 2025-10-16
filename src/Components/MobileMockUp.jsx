@@ -233,7 +233,7 @@ export default function MobileMockUp({ data }) {
                                                 {isDescriptionOpen && (
                                                     <div
                                                         onClick={() => setOpenDescriptionIndex(null)}
-                                                        className="absolute inset-0 bg-black/80 text-white z-40 overflow-y-auto no-scrollbar flex items-center justify-center text-center rounded-[2.5rem] cursor-pointer"
+                                                        className="absolute inset-0 bg-black/80 text-white text-justify z-40 overflow-y-auto no-scrollbar flex items-center justify-center rounded-[2.5rem] cursor-pointer"
                                                     >
                                                         <p className="h-[95%] p-4">
                                                             {screen.description}

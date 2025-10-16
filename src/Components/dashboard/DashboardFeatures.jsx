@@ -181,7 +181,7 @@ const DashboardFeatures = ({ data }) => {
                         </div>
 
                         {/* Text Content */}
-                        <div className="w-full md:w-1/2">
+                        <div className="w-full md:w-1/2 flex flex-col justify-center">
                             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 leading-snug">
                                 {feature.title.split(feature.highlight)[0]}
                                 <span className="bg-green-200 px-2 py-1 rounded text-green-800">
@@ -189,22 +189,11 @@ const DashboardFeatures = ({ data }) => {
                                 </span>
                             </h3>
 
-                            {/* <ul className="space-y-3 text-gray-700">
-                                {feature.points.map((point, idx) => (
-                                    <li
-                                        key={idx}
-                                        className="flex items-start gap-3 text-lg hover:text-green-700 transition-colors"
-                                    >
-                                        <span className="text-green-500 mt-1">✔</span>
-                                        {point}
-                                    </li>
-                                ))}
-                            </ul> */}
                             <ul className="space-y-3 text-gray-700">
                                 {feature.points.map((point, idx) => (
                                     <li
                                         key={idx}
-                                        className="flex items-start gap-3 text-lg hover:text-green-700 transition-colors"
+                                        className="flex items-start gap-3 text-lg hover:text-green-700 transition-colors max-md:text-center"
                                     >
                                         {/* Green dot */}
                                         <span className="w-2.5 h-2.5 bg-green-500 rounded-full mt-2.5 flex-shrink-0"></span>

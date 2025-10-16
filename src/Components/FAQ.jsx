@@ -213,9 +213,9 @@ export default function FAQ({ data }) {
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                         {title}
-                    </h1>
+                    </h3>
                     <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-teal-600 mx-auto mb-6"></div>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">{subtitle}</p>
                 </div>
@@ -225,13 +225,13 @@ export default function FAQ({ data }) {
                     {faqs.map((item) => (
                         <div
                             key={item.id}
-                            className="w-full md:w-1/2 px-3 mb-6" // 1 per row on mobile, 2 per row on md+
+                            className="w-full md:w-1/2 px-2 mb-3" // 1 per row on mobile, 2 per row on md+
                         >
                             <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-all duration-300">
                                 {/* Question Button */}
                                 <button
                                     onClick={() => toggleItem(item.id)}
-                                    className="w-full min-h-30 px-6 py-5 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
+                                    className="w-full px-4 py-2 md:py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
                                 >
                                     <div className="flex items-center space-x-4">
                                         <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
@@ -254,7 +254,7 @@ export default function FAQ({ data }) {
                                         height: openItemId === item.id ? "auto" : "0px",
                                     }}
                                 >
-                                    <div className="px-6 pb-6 ml-12">
+                                    <div className="px-4 pb-2 ml-12">
                                         <div className="w-full h-px bg-gray-200 mb-4"></div>
                                         <p className="text-gray-600 leading-relaxed">{item.answer}</p>
                                     </div>
