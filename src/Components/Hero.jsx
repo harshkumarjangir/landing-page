@@ -119,7 +119,7 @@ const HeroSection = ({ data }) => {
   const { backgroundVideo, heading, description, buttons } = data;
 
   return (
-    <div className="relative md:h-[90vh] w-full px-2 flex max-md:flex-col flex-row items-center max-md:justify-center justify-between text-white">
+    <div className="relative md:h-[90vh] w-full max-md:pb-10 px-2 flex max-md:flex-col flex-row items-center max-md:justify-center justify-between text-white">
       {/* Background Video */}
       <video
         autoPlay

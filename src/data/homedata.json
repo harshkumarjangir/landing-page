@@ -1,8 +1,8 @@
 {
   "heroSection": {
     "backgroundVideo": "/assets/home/hero/herovideo.webm",
-    "heading": "Engineering Global Digital Disruption with AI-Native Solutions",
-    "description": "We are a Deloitte Technology Fast 50 company and a Clutch Global Award 2025 winner for unmatched customer excellence. Our mission is to leverage AI-driven automation and strategic innovation to craft digital solutions that not only meet but anticipate your business needs, ensuring sustainable market leadership your business needs, ensuring sustainable market leadership.ensuring sustainable ",
+    "heading": "Restaurant App Development Company",
+    "description": "Get your restaurant online with our restaurant app development services. We create customized, feature-rich apps to automate orders, offer better customer experience, and boost sales. Whether you want an app solution for one outlet or a restaurant chain, being one of the best restaurant app development companies, we have got you covered.",
     "buttons": [
       {
         "text": "Get Started",
@@ -63,8 +63,9 @@
   },
   "section3": {
     "image": "/assets/home/section3/girl.webp",
-    "heading": "Engineering Global Digital Disruption with AI-Native Solutions",
-    "description": "We are a Deloitte Technology Fast 50 company and a Clutch Global Award 2025 winner for unmatched customer excellence. Our mission is to leverage AI-driven automation and strategic innovation to craft digital solutions that not only meet but anticipate your business needs, ensuring sustainable market leadership your business needs, ensuring sustainable market leadership.ensuring sustainable "
+    "heading": "Empower Your Business through Restaurant Application Development",
+    "description": "It enhances efficiency, reduces waiting time, and provides perfect operability. With streamlined UI and powerful features, your restaurant can provide an elite in-restaurant and online dining experience.",
+    "description2": "We, as an established restaurant app development company, design custom products tailor-made to your business model. Whether it’s small cafes or multi-unit restaurant chains, our apps feature state-of-the-art features, including real-time location tracking, secure payments, and customized content, to give your customers an effortless and engaging experience."
   },
   "overviewSection": {
     "heading": "Overview",
@@ -107,22 +108,22 @@
         "image": "/assets/ResturantFeature/restaurent-app-hire.webp",
         "features": [
           "Easy Sign-Up",
-          "Restaurant Search",
-          "Online Ordering",
-          "Order Tracking",
-          "Reviews & Ratings",
-          "Wishlist & Favorites",
-          "Loyalty Rewards",
-          "Social Media Login",
-          "Referral Program",
-          "Profile Management",
-          "Table Reservations",
-          "Menu Browsing",
-          "Multiple Payment Options",
           "Push Notifications",
+          "Profile Management",
+          "Wishlist & Favourites",
+          "Restaurant Search",
           "Promo Codes",
+          "Table Reservations",
+          "Loyalty Rewards",
+          "Online Ordering",
           "Order History",
+          "Menu Browsing",
+          "Social Media Login",
+          "Order Tracking",
           "Live Chat Support",
+          "Multiple Payment Options",
+          "Referral Program",
+          "Reviews & Ratings",
           "Multi-Language Support"
         ]
       },
@@ -130,67 +131,72 @@
         "name": "Restaurant Panel",
         "image": "/assets/home/appFeatures/restaurent_panel.webp",
         "features": [
-          "Menu Browsing",
-          "Table Reservations",
-          "Order History",
-          "Promo Codes",
-          "Easy Sign-Up",
-          "Restaurant Search",
-          "Online Ordering",
-          "Order Tracking",
-          "Reviews & Ratings",
-          "Wishlist & Favorites",
-          "Loyalty Rewards",
-          "Social Media Login",
-          "Referral Program",
-          "Profile Management",
-          "Table Reservations",
-          "Multiple Payment Options",
-          "Push Notifications"
+          "Restaurant Profile Setup",
+          "Staff Management",
+          "Menu Management",
+          "Sales Analytics",
+          "Order Management",
+          "Inventory Management",
+          "Table Booking System",
+          "Loyalty Program Integration",
+          "Payment Integration",
+          "Multi-Branch Support",
+          "Promotions & Discounts",
+          "Report Generation",
+          "Push Notifications",
+          "Food Category Organization",
+          "Customer Reviews Management",
+          "Business Dashboard",
+          "Real-time Order Tracking",
+          "Customer Support Panel"
         ]
       },
       {
         "name": "Driver Panel",
         "image": "/assets/home/appFeatures/restaurent_driver_panel.webp",
         "features": [
-          "Order Tracking",
-          "Push Notifications",
-          "Live Chat Support",
-          "Wishlist & Favorites",
-          "Loyalty Rewards",
-          "Social Media Login",
-          "Referral Program",
+          "Driver Registration",
+          "Customer Contact",
           "Profile Management",
-          "Table Reservations",
-          "Menu Browsing",
-          "Multiple Payment Options",
+          "Order Pickup Details",
+          "Order Requests",
           "Push Notifications",
-          "Promo Codes",
-          "Order History",
-          "Live Chat Support",
-          "Multi-Language Support"
+          "Route Optimization",
+          "Delivery History",
+          "Live Order Tracking",
+          "Ratings & Reviews",
+          "Delivery Status Updates",
+          "Availability Toggle",
+          "In-App Navigation",
+          "Multi-Order Handling",
+          "Earnings Dashboard",
+          "Delivery Time Estimates",
+          "Payment Management",
+          "Support Chat"
         ]
       },
       {
         "name": "Admin Panel",
         "image": "/assets/home/appFeatures/restaurent_admin_panel.webp",
         "features": [
-          "Profile Management",
-          "Multi-Language Support",
-          "Referral Program",
-          "Wishlist & Favorites",
-          "Loyalty Rewards",
-          "Social Media Login",
-          "Referral Program",
-          "Profile Management",
-          "Table Reservations",
-          "Menu Browsing",
-          "Multiple Payment Options",
-          "Push Notifications",
-          "Promo Codes",
-          "Order History",
-          "Live Chat Support",
-          "Multi-Language Support"
+          "User Management",
+          "Review & Feedback Control",
+          "Restaurant Management",
+          "Multi-Store Management",
+          "Driver Management",
+          "Real-time Notifications",
+          "Order Tracking",
+          "Role-Based Access",
+          "Payment Management",
+          "Performance Monitoring",
+          "Commission Settings",
+          "Delivery Tracking",
+          "Promo Code Management",
+          "Refund Management",
+          "Reports & Analytics",
+          "Customer Support Portal",
+          "Menu Updates",
+          "System Security Controls"
         ]
       }
     ]
@@ -261,36 +267,37 @@
   },
   "developmentServicesSection": {
     "title": "Restaurant App Development Services We Offer",
+    "description": "Powered by Full Mobile App Development We offer robust application development solutions to give your business the ability to deliver a rich digital experience for customers while cutting your maintenance costs.",
     "services": [
       {
         "id": 1,
         "icon": "Utensils",
-        "title": "Custom Restaurant App Development",
-        "desc": "We build fully customized restaurant apps tailored to your unique business needs."
+        "title": "Restaurant Application Development",
+        "desc": "Get a completely customized restaurant app development to fit your business objective. With a powerful combination of online ordering and loyalty programs, we focus on converting customers into regulars."
       },
       {
         "id": 2,
         "icon": "Headphones",
         "title": "Restaurant App Consultation",
-        "desc": "Get expert advice and a clear roadmap to launch and scale your restaurant app."
+        "desc": "Not sure where to start? Our expert restaurant app development company provides professional consultation to determine your perfect strategy, features list, and technology stack for your successful app."
       },
       {
         "id": 3,
         "icon": "Smartphone",
         "title": "Android Restaurant App Development",
-        "desc": "Develop fast, scalable, and robust Android restaurant applications."
+        "desc": "Expand your audience reach through Android app development for restaurants. We develop scalable and hyper-performant applications embedded with the best ordering, payment, and delivery-tracking capabilities."
       },
       {
         "id": 4,
         "icon": "Apple",
         "title": "iOS Restaurant App Development",
-        "desc": "Craft seamless iOS restaurant apps for an engaging user experience."
+        "desc": "Improve Customer Experience Funky and cool via restaurant app design & development for iOS. Our applications work smoothly, are safe, and are easily integrated with other third-party utilities."
       },
       {
         "id": 5,
         "icon": "Wrench",
         "title": "Restaurant App Maintenance",
-        "desc": "Ensure smooth performance and updates with ongoing app maintenance services."
+        "desc": "Support and Maintenance Tools Never have to worry about your app because it’s as smooth as our services. We issue changes, stomp out some bugs, and make improvements to the service that you need to enjoy. "
       },
       {
         "id": 6,
@@ -346,7 +353,8 @@
     ]
   },
   "mobileMockupSection": {
-    "title": "App Preview",
+    "title": "Restaurant Clone App Development Solutions",
+    "description": "Launch your restaurant app faster with our online restaurant app development solutions inspired by top industry platforms. Get feature-rich, scalable, and high-performing apps tailored to your business needs.",
     "screens": [
       {
         "img": "/assets/home/mobileMockup/zomato2.png",
@@ -436,7 +444,9 @@
   },
   "demoSection": {
     "leftText": "Click For Demo",
-    "rightButton": "6amMart"
+    "rightButton": "6amMart",
+    "colorGreen": "#12A84E",
+    "colorBlue": "#1E3A8A"
   },
   "dontSettle": {
     "title": "Don't Settle For Less. Experience The Best!",
@@ -849,10 +859,10 @@
         "step": "Step 6"
       }
     ]
-  },
+  },    
   "latestTechnologies": {
     "heading": "Get Solutions Built with the Latest Robust Technologies",
-    "description": "JPloft combines AI, machine learning, and other emerging technologies to craft scalable solutions, giving your business a competitive edge. Our teams' expertise covers a vast range of technologies, setting us apart from other companies.",
+    "description": "Metablock Technologies combines AI, machine learning, and other emerging technologies to craft scalable solutions, giving your business a competitive edge. Our teams' expertise covers a vast range of technologies, setting us apart from other companies.",
     "categories": [
       {
         "name": "Mobile App",
@@ -1235,58 +1245,143 @@
     "buttonUrl": "#"
   },
   "faqSection": {
-    "title": "Frequently Asked Questions",
+    "title": "FAQs for Restaurant App Development Company",
     "subtitle": "Find answers to common questions about restaurant app development, costs, timelines, and our services.",
     "faqs": [
       {
         "id": 1,
-        "question": "How much does restaurant app development cost?",
-        "answer": "The cost of restaurant app development varies based on features, complexity, and platform. Basic apps typically range from $15,000-$40,000, while advanced apps with custom features, real-time tracking, and multiple integrations can cost $50,000-$150,000+. Factors affecting cost include UI/UX design complexity, backend development, third-party integrations, and ongoing maintenance requirements."
+        "question": "How do you work on restaurant app development?",
+        "answer": "We provide the service from the concept design, UI/UX to mobile app development on both iOS and Android with backend and API integration for all your business needs.We offer end-to-end solutions across various industries like payment integration, testing and deployment to post-launch support. "
       },
       {
         "id": 2,
-        "question": "How long does it take to develop a restaurant app?",
-        "answer": "Restaurant app development typically takes 3-8 months depending on complexity. A basic app with essential features takes 3-4 months, while feature-rich apps with advanced functionality can take 6-8 months. The timeline includes planning, design, development, testing, and deployment phases. Factors like team size, feature complexity, and revision rounds can impact the overall timeline."
+        "question": "How much does it cost to make a restaurant app? ",
+        "answer": "Turnaround time will vary based on the complexity of your app. For a simple app, it can take 8-12 weeks to develop an MVP, and one with integration of custom features takes 16-24 week."
       },
       {
         "id": 3,
-        "question": "What features should a restaurant app have?",
-        "answer": "Essential features include: menu browsing with high-quality images, online ordering and payment processing, table reservation system, user registration and profiles, order tracking, push notifications, ratings and reviews, loyalty programs, and customer support chat. Advanced features may include AR menu visualization, voice ordering, AI-powered recommendations, and integration with POS systems."
+        "question": "Are you developing for Android and iOS?",
+        "answer": "Yes, we build both Android and IOS native apps for the best performance on each of these devices while also working cross platform if you are looking for a more cost effective solution. "
       },
       {
         "id": 4,
-        "question": "Do you offer custom restaurant app development?",
-        "answer": "Yes, we provide fully customized restaurant app development tailored to your specific business needs. Our custom solutions include branded design, unique features, specialized workflows, custom integrations with your existing systems, and scalable architecture. We work closely with you to understand your requirements and create a solution that reflects your brand and serves your customers effectively."
+        "question": "Can you build an API between a restaurant’s current POS and the dining app?",
+        "answer": "Absolutely. We can connect to almost any POS system and integrate directly with your orders, inventory and customer data."
       },
       {
         "id": 5,
-        "question": "Can you develop an app for both Android and iOS?",
-        "answer": "Absolutely! We offer cross-platform development using technologies like React Native or Flutter, which allows us to create apps that work seamlessly on both Android and iOS platforms. This approach reduces development time and costs while ensuring consistent user experience across devices. We also provide native development if platform-specific features are required."
+        "question": "What can a restaurant app do?",
+        "answer": "Basic functionalities are ordering, table booking, menu browsing, payment processing push notifications, loyalty management delivery updates and user rating."
       },
       {
         "id": 6,
-        "question": "Do you provide post-launch support and maintenance?",
-        "answer": "Yes, we offer comprehensive post-launch support including bug fixes, security updates, feature enhancements, performance optimization, and technical support. Our maintenance packages include regular app updates, server maintenance, analytics monitoring, and user feedback implementation. We ensure your app stays current with OS updates and industry standards."
+        "question": "Do you also offer UI/UX design?",
+        "answer": "Yes, our designs are simple and attractive to the eyes, putting at the back of our minds user engagement and high-order conversion."
       },
       {
         "id": 7,
-        "question": "Can I integrate third-party services into my restaurant app?",
-        "answer": "Yes, we can integrate various third-party services including payment gateways (Stripe, PayPal, Square), delivery platforms (DoorDash, Uber Eats), POS systems, inventory management tools, CRM systems, social media platforms, analytics tools, and marketing automation platforms. We ensure secure and reliable integrations that enhance your app's functionality."
+        "question": "Does the app accommodate online orders and payments?",
+        "answer": "Yes, we combine a secure online ordering system together with several types of payment and options services such as credit/debit card, net banking, wallets, etc."
       },
       {
         "id": 8,
-        "question": "Do you develop restaurant marketplace apps like OpenTable and Yelp?",
-        "answer": "Yes, we develop restaurant marketplace and discovery apps that connect multiple restaurants with customers. These platforms include features like restaurant listings, advanced search and filtering, reservation management, review systems, promotional tools for restaurants, commission-based models, and comprehensive admin panels for platform management."
+        "question": "Do you have loyalty or rewards points?",
+        "answer": "Yes, we can add custom loyalty programs, points for purchases or referrals, and slash promotions to keep your customers engaged with our system."
       },
       {
         "id": 9,
-        "question": "How do I hire restaurant app developers from JPLoft?",
-        "answer": "To hire our restaurant app developers, start by contacting us through our website or phone. We'll schedule a consultation to discuss your project requirements, timeline, and budget. After understanding your needs, we'll provide a detailed proposal with our recommended team structure, timeline, and pricing. Once approved, we'll assign dedicated developers and begin the project with regular updates and communication."
+        "question": "How do you keep apps secure and protect customer data?",
+        "answer": "Sensitive information is transmitted via SSL encryption, and we use secure authentication to keep data private."
       },
       {
         "id": 10,
-        "question": "How do I get started with my restaurant app project?",
-        "answer": "Getting started is easy! First, contact us to schedule a free consultation where we'll discuss your vision, target audience, and business goals. We'll then conduct a detailed requirement analysis, create wireframes and prototypes, and provide you with a comprehensive project roadmap and timeline. Our team will guide you through each step from concept to launch and beyond."
+        "question": "Do you provide app multilingual support?",
+        "answer": "Yes, an application can be created so that it supports different languages, and the app can be accessed by more people."
+      },
+      {
+        "id": 11,
+        "question": "Is it possible to have an option of table reservation on the app?",
+        "answer": "Customers can view the availability of tables, make reservations in real time, and receive push or SMS conCompanyations."
+      },
+      {
+        "id": 12,
+        "question": "Is including the delivery tracking in the app feasible?",
+        "answer": "Yes, we incorporate GPS-based real-time tracking for deliveries so customers can see their order as it leaves the kitchen until it arrives at their door."
+      },
+      {
+        "id": 13,
+        "question": "Do you offer app maintenance and support post-deployment?",
+        "answer": "Yes, we do provide continued support packages and bug fixes, updates, etc.—the whole lot of performance improvement things as well."
+      },
+      {
+        "id": 14,
+        "question": "Can you connect to third-party delivery services, such as Uber Eats and DoorDash?",
+        "answer": "Yes, I can integrate your app with favorite delivery services."
+      },
+      {
+        "id": 15,
+        "question": "How much does a restaurant app cost to make?",
+        "answer": "Pricing is contingent on features, design complexity and integrations. A simple app would likely start at $10,000–$15,000 where custom apps can become cost anywhere from $30,000–$50,000+ and upward."
+      },
+      {
+        "id": 16,
+        "question": "Is it possible for this app to manage multiple restaurant franchises?",
+        "answer": "Yes, we build apps that can control more than one location with centralized menu updates, store-based promotions, and analytics."
+      },
+      {
+        "id": 17,
+        "question": "Do you support push notifications of promotions and updates?",
+        "answer": "Yes, push notifications can be used to notify users about offers, new menu items, events, and personalized promotions to increase engagement."
+      },
+      {
+        "id": 18,
+        "question": "Is it possible to brand and design the app on our own?",
+        "answer": "Yes, you can customize everything — from logo and color to font and layout — to align the app with your brand identity."
+      },
+      {
+        "id": 19,
+        "question": "How do you cold test the app for bugs and performance?",
+        "answer": "We conduct extensive QA testing post-launch across browsers, iOS, Android, and Windows platforms to ensure stability and performance."
+      },
+      {
+        "id": 20,
+        "question": "Do you deliver analytics that allow me to have a view on orders and customer behavior?",
+        "answer": "Yes, integrated analytics dashboards display order history, customer preferences, popular menu items, and revenue metrics to help you make informed business decisions."
+      },
+      {
+        "id": 21,
+        "question": "Is it possible to connect the app with social networking sites?",
+        "answer": "Yes, users can share their orders, reviews, and promotions, add social media usernames, and use integrated logins like Facebook and Google. The admin panel also shows how many times the app has been shared across social platforms. AdMob interstitial and banner ads are supported as well."
+      },
+      {
+        "id": 22,
+        "question": "Do you have a web-based version of the app?",
+        "answer": "Yes, we can build a cross-platform web app alongside your mobile app, so users can place orders from any device."
+      },
+      {
+        "id": 23,
+        "question": "How do you manage your app upgrades and versions?",
+        "answer": "We follow an agile-based development approach with a versioning system to simplify updates and feature upgrades while maintaining a smooth user experience."
+      },
+      {
+        "id": 24,
+        "question": "Is there an in-app inventory that is taken care of in real time?",
+        "answer": "Yes, it includes stock control features that allow managers to track inventory in real time, receive low-stock alerts, and sync orders to prevent overselling."
+      },
+      {
+        "id": 25,
+        "question": "How do you make sure that a restaurant app actually generates customer engagement and sales?",
+        "answer": "We focus on user-friendly design, personalized offers, loyalty programs, push notifications, seamless ordering, and real-time tracking — all supported by data-driven analytics to increase retention and revenue."
+      },
+      {
+        "id": 26,
+        "question": "Which payment options do you offer?",
+        "answer": "We integrate major gateways like Stripe, PayPal, Razorpay, and Square, as well as local payment methods relevant to your region."
+      },
+      {
+        "id": 27,
+        "question": "Is there a way for the app to support subscription or meal plan services?",
+        "answer": "Yes, customers can subscribe to weekly or monthly meal plans, pre-order meals, and manage their subscriptions directly within the app."
       }
     ]
   },

@@ -13,7 +13,7 @@ export default function OfficialPartners({ data }) {
                 {/* Left side - Official Partners */}
                 <div className="flex flex-col gap-4">
                     <h2 className="text-xl font-bold">{title}</h2>
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+                    <div className="flex flex-wrap justify-center gap-8">
                         {partners.map((partner, i) => (
                             <div key={i} className="flex items-center gap-3">
                                 <div className="relative w-20 h-8">
@@ -27,8 +27,8 @@ export default function OfficialPartners({ data }) {
                                 </div>
                                 <span
                                     className={`text-sm sm:text-base font-medium ${partner.label === "Partner Network"
-                                            ? "text-gray-400"
-                                            : "text-white"
+                                        ? "text-gray-400"
+                                        : "text-white"
                                         }`}
                                 >
                                     {partner.label.split(" ").slice(0, 1).join(" ")}

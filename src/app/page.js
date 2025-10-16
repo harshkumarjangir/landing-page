@@ -36,6 +36,8 @@ import CustomVsReadymadeApp from "@/Components/CustomVsReadymadeApp";
 
 
 export default function Home() {
+const { colorGreen, colorBlue } = homedata.demoSection;
+
   return (
     <>
       <HeroSection data={homedata.heroSection} />
@@ -49,10 +51,10 @@ export default function Home() {
       <HowItWorks data={homedata.howItWorks} />
       <MobileMockUp data={homedata.mobileMockupSection} />
       <FeatureSection data={homedata.featureSection} />
-      <DemoSection data={homedata.demoSection} />
+      <DemoSection data={homedata.demoSection} colorTheme={colorBlue} />
       <DontSettle data={homedata.dontSettle} />
       <Dashboard data={homedata.dashboardSection} />
-      <DemoSection data={homedata.demoSection} />
+      <DemoSection data={homedata.demoSection} colorTheme={colorGreen} />
       {/* <BusinessInterfaces data={homedata.businessInterfaces} /> */}
       <AppOperations data={homedata.appOperations} />
       <MistakesToAvoid data={homedata.mistakesToAvoidSection} />

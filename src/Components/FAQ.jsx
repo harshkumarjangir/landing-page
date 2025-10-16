@@ -237,7 +237,7 @@ export default function FAQ({ data }) {
                                         <span className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-full flex items-center justify-center text-sm font-semibold">
                                             {item.id}
                                         </span>
-                                        <h3 className="text-lg font-semibold text-gray-900 pr-4">
+                                        <h3 className="text-sm md:text-lg font-semibold text-gray-900 pr-4">
                                             {item.question}
                                         </h3>
                                     </div>

@@ -31,7 +31,7 @@ const CompanyTestimonials = ({ data }) => {
 
             <div className="max-w-7xl mx-auto">
                 {/* Heading */}
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
                     {heading}
                 </h1>
                 <p className="text-gray-300 text-lg md:text-xl mb-12">{description}</p>
@@ -41,9 +41,9 @@ const CompanyTestimonials = ({ data }) => {
                     {stats.map((stat, i) => (
                         <div
                             key={i}
-                            className="bg-gray-900 border border-gray-800 rounded-2xl p-6 text-center"
+                            className="bg-gray-900 border border-gray-800 rounded-2xl p-4 md:p-6 text-center"
                         >
-                            <div className="text-3xl md:text-4xl font-bold mb-2">
+                            <div className="text-2xl md:text-4xl font-bold mb-2">
                                 {stat.value}
                             </div>
                             <div className="text-gray-400">{stat.label}</div>
