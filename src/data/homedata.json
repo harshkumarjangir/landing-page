@@ -358,35 +358,43 @@
     "screens": [
       {
         "img": "/assets/home/mobileMockup/zomato2.png",
-        "caption": "Zomato Screen"
+        "caption": "Zomato Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system. Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/ubereats2.png",
-        "caption": "UberEats Screen"
+        "caption": "UberEats Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/swiggy2.png",
-        "caption": "Swiggy Screen"
+        "caption": "Swiggy Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/easy2.png",
-        "caption": "Easy Screen"
+        "caption": "Easy Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/zomato2.png",
-        "caption": "Zomato Screen"
+        "caption": "Zomato Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/ubereats2.png",
-        "caption": "UberEats Screen"
+        "caption": "UberEats Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/swiggy2.png",
-        "caption": "Swiggy Screen"
+        "caption": "Swiggy Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       },
       {
         "img": "/assets/home/mobileMockup/easy2.png",
-        "caption": "Easy Screen"
+        "caption": "Easy Screen",
+        "description": "Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system."
       }
     ]
   },
@@ -447,7 +455,7 @@
     "rightButton": "6amMart",
     "rightButtonUrl": "#",
     "colorGreen": "#12A84E",
-    "colorBlue": "#1E3A8A"
+    "colorBlue": "#137F4C"
   },
   "dontSettle": {
     "title": "Don't Settle For Less. Experience The Best!",
@@ -860,7 +868,7 @@
         "step": "Step 6"
       }
     ]
-  },    
+  },
   "latestTechnologies": {
     "heading": "Get Solutions Built with the Latest Robust Technologies",
     "description": "Metablock Technologies combines AI, machine learning, and other emerging technologies to craft scalable solutions, giving your business a competitive edge. Our teams' expertise covers a vast range of technologies, setting us apart from other companies.",
