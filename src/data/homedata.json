@@ -445,6 +445,7 @@
   "demoSection": {
     "leftText": "Click For Demo",
     "rightButton": "6amMart",
+    "rightButtonUrl": "#",
     "colorGreen": "#12A84E",
     "colorBlue": "#1E3A8A"
   },

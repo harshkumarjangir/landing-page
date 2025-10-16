@@ -21,7 +21,6 @@ import GlobalOffices from "@/Components/GlobalOffices";
 import Footer from "@/Components/Footer";
 import DontSettle from "@/Components/dashboard/DontSettle";
 import AppDevelopmentServices from "@/Components/AppDevelopmentServices";
-import BusinessInterfaces from "@/Components/BusinessInterfaces";
 import AppOperations from "@/Components/AppOperations";
 import LatestBlogs from "@/Components/LatestBlogs";
 import MistakesToAvoid from "@/Components/MistakesToAvoid";
@@ -51,20 +50,16 @@ const { colorGreen, colorBlue } = homedata.demoSection;
       <HowItWorks data={homedata.howItWorks} />
       <MobileMockUp data={homedata.mobileMockupSection} />
       <FeatureSection data={homedata.featureSection} />
-      <DemoSection data={homedata.demoSection} colorTheme={colorBlue} />
+      <DemoSection data={homedata.demoSection} colorTheme={homedata.demoSection.colorBlue} />
       <DontSettle data={homedata.dontSettle} />
       <Dashboard data={homedata.dashboardSection} />
-      <DemoSection data={homedata.demoSection} colorTheme={colorGreen} />
+      <DemoSection data={homedata.demoSection} colorTheme={homedata.demoSection.colorGreen} />
       {/* <BusinessInterfaces data={homedata.businessInterfaces} /> */}
       <AppOperations data={homedata.appOperations} />
       <MistakesToAvoid data={homedata.mistakesToAvoidSection} />
 
       {/* <AppDevelopmentProcess data={homedata.appDevelopmentProcessStepsOld} /> */}
       <HowItWorks data={homedata.appDevelopmentProcessSteps} />
-      {/* <ReusableTimeline data={homedata.appDevelopmentProcessSteps} /> */}
-
-
-
 
       <LatestTechnologies data={homedata.latestTechnologies} />
       <VideoInsights data={homedata.videoInsights} />
