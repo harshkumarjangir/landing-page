@@ -31,9 +31,9 @@ const CompanyTestimonials = ({ data }) => {
 
             <div className="max-w-7xl mx-auto">
                 {/* Heading */}
-                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
+                <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
                     {heading}
-                </h1>
+                </h2>
                 <p className="text-gray-300 text-lg md:text-xl mb-12">{description}</p>
 
                 {/* Stats Section */}

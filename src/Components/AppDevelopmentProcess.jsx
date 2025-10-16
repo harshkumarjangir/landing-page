@@ -10,12 +10,12 @@
 //     return (
 //         <section className="bg-white py-16 text-gray-800 flex flex-col items-center relative overflow-hidden">
 //             {/* Heading */}
-//             <h1
+//             <h2
 //                 className="text-center text-3xl md:text-5xl font-bold mb-6 text-red-600"
 //                 style={{ textShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)" }}
 //             >
 //                 App Development Process
-//             </h1>
+//             </h2>
 
 //             <p className="text-center max-w-2xl mb-12 text-base md:text-lg text-gray-600 px-4">
 //                 Our systematic development process ensures seamless execution from concept to completion.
@@ -109,12 +109,12 @@ const AppDevelopmentProcess = ({ data }) => {
     return (
         <section className="bg-blue-50 py-16 text-gray-800 flex flex-col items-center relative overflow-hidden">
             {/* Heading */}
-            <h1
+            <h2
                 className="text-center text-3xl md:text-5xl font-bold mb-6 text-red-600"
                 style={{ textShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)" }}
             >
                 {title}
-            </h1>
+            </h2>
 
             <p className="text-center max-w-2xl mb-12 text-base md:text-lg text-gray-600 px-4">
                 {description}
@@ -212,12 +212,12 @@ export default AppDevelopmentProcess;
 //     return (
 //         <section className="bg-green-50 py-16 text-gray-800 flex flex-col items-center relative overflow-hidden">
 //             {/* Heading */}
-//             <h1
+//             <h2
 //                 className="text-center text-3xl md:text-5xl font-bold mb-6 text-green-600"
 //                 style={{ textShadow: "0px 4px 8px rgba(0, 0, 0, 0.15)" }}
 //             >
 //                 {title}
-//             </h1>
+//             </h2>
 
 //             <p className="text-center max-w-2xl mb-12 text-base md:text-lg text-gray-600 px-4">
 //                 {description}

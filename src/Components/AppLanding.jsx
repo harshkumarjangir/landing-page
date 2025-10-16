@@ -16,9 +16,9 @@
 //             {/* Content */}
 //             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto py-5">
 //                 {/* Main Heading */}
-//                 <h1 className="text-4xl md:text-4xl lg:text-4xl font-bold text-white mb-6 leading-tight">
+//                 <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold text-white mb-6 leading-tight">
 //                     Let's Build Your Restaurant App Today!
-//                 </h1>
+//                 </h2>
 
 //                 {/* Subheading */}
 //                 <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -68,9 +68,9 @@ export default function AppLanding({ data }) {
             {/* Foreground Content */}
             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto py-10">
                 {/* Heading */}
-                <h1 className="text-4xl md:text-4xl lg:text-4xl font-bold text-white mb-6 leading-tight">
+                <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold text-white mb-6 leading-tight">
                     {heading}
-                </h1>
+                </h2>
 
                 {/* Subheading */}
                 <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">

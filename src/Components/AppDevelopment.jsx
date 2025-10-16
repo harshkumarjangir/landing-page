@@ -90,13 +90,13 @@
 //                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 //                     {/* Left Column - Title */}
 //                     <div className="lg:sticky lg:top-12">
-//                         <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+//                         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
 //                             Why Choose <span className="text-orange-500">JPLoft</span> for
 //                             <br />
 //                             <span className="text-gray-700">Restaurant App</span>
 //                             <br />
 //                             <span className="text-gray-700">Development?</span>
-//                         </h1>
+//                         </h2>
 //                         <p className="mt-6 text-gray-600 text-lg leading-relaxed">
 //                             As a leading restaurant app development company, we deliver custom, feature-rich solutions tailored to your business needs. From seamless UI to advanced integrations, our expert developers ensure high performance, scalability, and customer engagement.
 //                         </p>

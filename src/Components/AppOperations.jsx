@@ -12,13 +12,13 @@
 //                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 //                     {/* Left Column - Title */}
 //                     <div className="lg:sticky lg:top-12">
-//                         <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+//                         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
 //                             Why Choose <span className="text-green-500">JPLoft</span> for
 //                             <br />
 //                             <span className="text-gray-700">Restaurant App</span>
 //                             <br />
 //                             <span className="text-gray-700">Development?</span>
-//                         </h1>
+//                         </h2>
 //                         <p className="mt-6 text-gray-600 text-lg leading-relaxed">{description}</p>
 //                     </div>
 
@@ -56,13 +56,13 @@
 
 //                 {/* Left Column - Title */}
 //                 <div className="lg:sticky lg:top-12">
-//                     <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+//                     <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
 //                         Why Choose <span className="text-green-500">JPLoft</span> for
 //                         <br />
 //                         <span className="text-gray-700">Restaurant App</span>
 //                         <br />
 //                         <span className="text-gray-700">Development?</span>
-//                     </h1>
+//                     </h2>
 //                     <p className="mt-6 text-gray-600 text-lg leading-relaxed">{description}</p>
 //                 </div>
 
@@ -105,13 +105,13 @@ export default function AppOperations({ data }) {
 
                 {/* Left Column - Sticky Text */}
                 <div className="lg:sticky lg:top-12">
-                    <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                    <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                         {heading.line1} <span className="text-green-500">{heading.highlight}</span>{heading.highlightSuffix ? " " + heading.highlightSuffix : ""}
                         <br />
                         <span className="text-gray-700">{heading.line2}</span>
                         <br />
                         <span className="text-gray-700">{heading.line3}</span>
-                    </h1>
+                    </h2>
                     <p className="mt-6 text-gray-600 text-lg leading-relaxed">{description}</p>
                 </div>
 

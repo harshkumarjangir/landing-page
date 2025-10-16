@@ -19,9 +19,9 @@
 //             <div className="max-w-4xl mx-auto">
 //                 {/* Header */}
 //                 <div className="text-center mb-12">
-//                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+//                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
 //                         {title}
-//                     </h1>
+//                     </h2>
 //                     <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-teal-600 mx-auto mb-6"></div>
 //                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
 //                         {subtitle}
@@ -135,9 +135,9 @@
 //             <div className="max-w-7xl mx-auto">
 //                 {/* Header */}
 //                 <div className="text-center mb-12">
-//                     <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+//                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
 //                         {title}
-//                     </h1>
+//                     </h2>
 //                     <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-teal-600 mx-auto mb-6"></div>
 //                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">{subtitle}</p>
 //                 </div>
@@ -213,9 +213,9 @@ export default function FAQ({ data }) {
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">
-                    <h3 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                         {title}
-                    </h3>
+                    </h2>
                     <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-teal-600 mx-auto mb-6"></div>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">{subtitle}</p>
                 </div>
