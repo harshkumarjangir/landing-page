@@ -996,7 +996,7 @@ export default function MobileMockUp({ data }) {
                                                     fill
                                                     className="object-cover rounded-[2.5rem]"
                                                 />
-                                                <div className="absolute bottom-0 inset-x-0 bg-black/50 text-white w-full h-40 z-50">Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system.</div>
+                                                <div className="absolute bottom-0 inset-x-0 bg-black/80 text-white w-full h-40 z-50 p-2">Build a powerful restaurant platform development solution like go4food with seamless table reservations, real-time availability, and an easy-to-use booking system.</div>
                                             </div>
                                         </div>
                                     </div>

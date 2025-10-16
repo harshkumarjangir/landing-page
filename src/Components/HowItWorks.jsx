@@ -162,18 +162,18 @@ const HowItWorks = ({ data }) => {
 
                         {/* Step Card */}
                         <div
-                            className={`bg-white/10 border border-green-300/20 rounded-lg p-4 sm:p-6 shadow-lg w-[35%] text-left relative 
+                            className={`bg-white/10 border border-green-300/20 rounded-lg px-2 pb-3 sm:p-6 shadow-lg w-[35%] text-left relative 
                             before:content-[''] before:absolute before:top-[51%] 
                             ${index % 2 === 0 ? "before:left-[-47%]" : "before:right-[-47%]"} 
                             before:border-b-2 before:border-dashed before:border-green-300 before:w-[47%]`}
                         >
                             <p
-                                className="sm:text-[70px] text-[50px] font-bold text-transparent bg-gradient-to-b from-green-200 to-green-400 bg-clip-text leading-[82px] mb-0 mt-[-69px] sm:mt-[-75px]"
+                                className="text-[50px] sm:text-[70px] font-bold text-transparent bg-gradient-to-b from-green-200 to-green-400 bg-clip-text leading-[82px] mb-0 mt-[-69px] sm:mt-[-75px]"
                                 style={{ fontFamily: "kenyan-coffee-rg" }}
                             >
                                 {step.number}
                             </p>
-                            <p className="sm:text-lg text-base font-semibold mt-2">{step.title}</p>
+                            <p className="sm:text-lg text-base font-semibold sm:mt-2">{step.title}</p>
                             <p className="sm:text-sm text-xs mt-2">{step.description}</p>
                         </div>
                     </div>
