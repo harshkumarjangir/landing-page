@@ -140,7 +140,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 export default function MobileMockUp({ data }) {
-    const { title, screens } = data;
+    const { title, screens, description } = data;
     const swiperRef = useRef(null);
     const [activeIndex, setActiveIndex] = useState(0);
     const [openDescriptionIndex, setOpenDescriptionIndex] = useState(null);
@@ -151,9 +151,11 @@ export default function MobileMockUp({ data }) {
 
     return (
         <section className="py-16 bg-black text-white relative overflow-hidden">
-            <h2 className="text-3xl md:text-[40px] font-medium mb-16 text-center">
+            <h2 className="text-3xl md:text-[40px] font-medium text-center">
                 {title}
             </h2>
+
+            <p className="max-w-3xl mx-auto my-5 text-gray-400">{description}</p>
 
             <div className="relative px-6 md:px-12"
                 onClick={() => setOpenDescriptionIndex(null)} // Close overlay if click outside

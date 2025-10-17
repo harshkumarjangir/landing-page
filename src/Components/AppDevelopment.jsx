@@ -153,8 +153,10 @@ export default function AppDevelopment({ data }) {
                     {/* Left Column - Title & Description from JSON */}
                     <div className="lg:sticky lg:top-12">
                         <h3 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                            {heading.line1} <span className="text-green-500">{heading.highlight}</span> {heading.highlightSuffix ? " " + heading.highlightSuffix : ""}
+                            {heading.line1} 
                             <br />
+                            <span className="text-green-500">{heading.highlight}</span> {heading.highlightSuffix ? " " + heading.highlightSuffix : ""}
+                            {/* <br /> */}
                             <span className="text-gray-700">{heading.line2}</span>
                             <br />
                             <span className="text-gray-700">{heading.line3}</span>

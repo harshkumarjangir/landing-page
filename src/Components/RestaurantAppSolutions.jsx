@@ -150,15 +150,15 @@ const RestaurantAppSolutions = ({ data }) => {
                                         {/* Icon + Text */}
                                         <div className="absolute inset-0 flex flex-col items-center justify-end pb-6 px-3 text-white">
                                             <div className="bg-white rounded-full p-3">
-                                            <LucideIcon className="w-10 h-10 text-orange-500" />
+                                                <LucideIcon className="w-10 h-10 text-orange-500" />
                                             </div>
                                             <h3 className="text-lg font-semibold">{card.title}</h3>
-                                            <p className="text-sm opacity-80">{card.subtitle}</p>
+                                            {/* <p className="text-sm opacity-80">{card.subtitle}</p> */}
                                         </div>
                                     </div>
 
                                     {/* BACK SIDE */}
-                                    <div
+                                    {/* <div
                                         className={`absolute inset-0 rounded-2xl shadow-lg flex flex-col items-center justify-center text-center p-6 [transform:rotateY(180deg)] backface-hidden ${index === 0
                                                 ? "bg-gradient-to-br from-orange-500 to-yellow-400 text-white"
                                                 : "bg-gradient-to-br from-orange-400 to-orange-600 text-white"
@@ -177,7 +177,37 @@ const RestaurantAppSolutions = ({ data }) => {
                                                 {card.cta}
                                             </Link>
                                         )}
+                                    </div> */}
+
+                                    <div
+                                        className={`absolute inset-0 rounded-2xl shadow-lg flex flex-col items-center text-center p-4 [transform:rotateY(180deg)] backface-hidden ${index === 0
+                                                ? "bg-gradient-to-br from-orange-500 to-yellow-400 text-white"
+                                                : "bg-gradient-to-br from-orange-400 to-orange-600 text-white"
+                                            }`}
+                                    >
+                                        {/* <LucideIcon className="w-10 h-10 mb-4 flex-shrink-0" /> */}
+                                        <h3 className="text-2xl font-bold mb-2 flex-shrink-0">{card.backTitle}</h3>
+
+                                        {/* ✅ Scrollable content area */}
+                                        <div className="flex-1 overflow-y-auto max-h-48 mb-4 px-2 scrollbar-thin scrollbar-thumb-white/30 no-scrollbar">
+                                            <ul className="text-sm space-y-2 list-disc list-inside text-center">
+                                                {card.backText.map((point, i) => (
+                                                    <li key={i}>{point}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+
+                                        {card.cta && (
+                                            <Link
+                                                href={card.ctaLink}
+                                                className="mt-2 px-6 py-2 bg-white text-orange-600 font-semibold rounded-lg hover:bg-orange-50 transition flex-shrink-0"
+                                            >
+                                                {card.cta}
+                                            </Link>
+                                        )}
                                     </div>
+
+
                                 </div>
                             </div>
                         );

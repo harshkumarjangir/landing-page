@@ -170,6 +170,7 @@ export default function IncludedWithSection({ data }) {
                 >
                     {showAddons ? "Hide Add-ons" : "Show Add-ons"}
                 </button>
+                
 
                 {/* Add-ons Grid with AnimatePresence */}
                 <AnimatePresence>
