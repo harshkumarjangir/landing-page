@@ -35,7 +35,6 @@ import CustomVsReadymadeApp from "@/Components/CustomVsReadymadeApp";
 
 
 export default function Home() {
-const { colorGreen, colorBlue } = homedata.demoSection;
 
   return (
     <>

@@ -418,7 +418,7 @@ export default function OverviewSection({ data }) {
                 }}
                 className="absolute transition-transform duration-300 hover:scale-110"
               >
-                <div className="w-28 sm:w-32 h-20 bg-green-100/90 animate-spin-reverse2 group-hover:[animation-play-state:paused] rounded-xl shadow-md flex flex-col items-center justify-center text-center border border-green-200">
+                <div className="w-24 sm:w-32 h-20 bg-green-100/90 animate-spin-reverse2 group-hover:[animation-play-state:paused] rounded-xl shadow-md flex flex-col items-center justify-center text-center border border-green-200">
                   <div className="w-10 h-10 mb-1 flex items-center justify-center bg-[#364153]/20 text-green-700 rounded-full">
                     {LucideIcon ? (
                       <LucideIcon size={28} strokeWidth={1.5} />
