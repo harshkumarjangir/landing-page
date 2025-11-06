@@ -1,5 +1,6 @@
 import Image from "next/image";
 import homedata from "@/data/homedata.json"
+import homedata2 from "@/data/homedata2.json"
 import HeroSection from "@/Components/Hero";
 import OfficialPartners from "@/Components/OfficialPartners";
 import RestaurantAppFeatures from "@/Components/RestaurantAppFeatures";
@@ -57,7 +58,7 @@ export default function Home() {
       <AppOperations data={homedata.appOperations} />
       <MistakesToAvoid data={homedata.mistakesToAvoidSection} />
 
-      {/* <AppDevelopmentProcess data={homedata.appDevelopmentProcessStepsOld} /> */}
+      {/* <AppDevelopmentProcess data={homedata2.appDevelopmentProcessStepsOld} /> */}
       <HowItWorks data={homedata.appDevelopmentProcessSteps} />
 
       <LatestTechnologies data={homedata.latestTechnologies} />

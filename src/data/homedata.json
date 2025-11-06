@@ -699,6 +699,14 @@
       {
         "src": "/assets/home/appOperations/app-features.png",
         "alt": "App Operation 4 - App Features"
+      },
+      {
+        "src": "/assets/home/appOperations/cab.png",
+        "alt": "App Operation 5 - App Features"
+      },
+      {
+        "src": "/assets/home/appOperations/cab-2.png",
+        "alt": "App Operation 6 - App Features"
       }
     ]
   },
