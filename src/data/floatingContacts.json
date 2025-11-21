@@ -1,0 +1,25 @@
+{
+    "contacts": [
+        {
+            "type": "call",
+            "icon": "Phone",
+            "link": "tel:+919876543210",
+            "color": "bg-blue-600",
+            "hoverColor": "hover:bg-blue-700"
+        },
+        {
+            "type": "whatsapp",
+            "icon": "MessageCircle",
+            "link": "https://wa.me/919876543210",
+            "color": "bg-green-500",
+            "hoverColor": "hover:bg-green-600"
+        },
+        {
+            "type": "email",
+            "icon": "Mail",
+            "link": "mailto:info@example.com",
+            "color": "bg-red-500",
+            "hoverColor": "hover:bg-red-600"
+        }
+    ]
+}

@@ -1525,6 +1525,10 @@
     "videos": [
       {
         "thumbnail": "/assets/home/videoTestimonials/images/tay.webp",
+        "videoSrc": "/assets/home/videoTestimonials/videos/review-video-3.mp4"
+      },
+      {
+        "thumbnail": "/assets/home/videoTestimonials/images/tay.webp",
         "videoSrc": "/assets/home/videoTestimonials/videos/Review for Jploft from Alex(480P).mp4"
       },
       {
